@@ -1,0 +1,91 @@
+Shen,Harvard-Oxford,AAL,Destrieux,Talairach,Atlas
+BL_LCerebWM,Left Cerebral White Matter,,,,Harvard-Oxford
+BL_RCerebWM,Right Cerebral White Matter,,,,Harvard-Oxford
+BL_LCerebCtx,Left Cerebral Cortex ,,,,Harvard-Oxford
+BL_RCerebCtx,Right Cerebral Cortex ,,,,Harvard-Oxford
+BL_LLatVent,Left Lateral Ventrical,,,,Harvard-Oxford
+BL_RLatVent,Right Lateral Ventricle,,,,Harvard-Oxford
+BL_LInfLatVent,Left Lateral Ventrical,,,,Harvard-Oxford
+BL_RInfLatVent,Right Lateral Ventricle,,,,Harvard-Oxford
+BL_LCerebellWM,Left Cerebral Cortex ,,,,Harvard-Oxford
+BL_RCerebellWM,Right Cerebral Cortex ,,,,Harvard-Oxford
+BL_LCerebellCtx,Left Cerebral Cortex ,,,,Harvard-Oxford
+BL_RCerebellCtx,Right Cerebral Cortex ,,,,Harvard-Oxford
+BL_LThalVol,Left Thalamus,,,,Harvard-Oxford
+BL_RThalVol,Right Thalamus,,,,Harvard-Oxford
+BL_LCaudVol,Left Caudate,,,,Harvard-Oxford
+BL_RCaudVol,Right Caudate,,,,Harvard-Oxford
+BL_LPutamVol,Left Putamen,,,,Harvard-Oxford
+BL_RPutamVol,Right Putamen,,,,Harvard-Oxford
+BL_LPallVol,Left Pallidum,,,,Harvard-Oxford
+BL_RPallVol,Right Pallidum,,,,Harvard-Oxford
+BL_LHippVol,Left Hippocampus,,,Hippocampus,Harvard-Oxford
+BL_RHippVol,Right Hippocampus,,,Hippocampus,Harvard-Oxford
+BL_LAmygVol,Left Amygdala,,,,Harvard-Oxford
+BL_RAmygVol,Right Amygdala,,,,Harvard-Oxford
+BL_LAccumVol,Left Accumbens,,,,Harvard-Oxford
+BL_RAccumVol,Right Accumbens,,,,Harvard-Oxford
+BL_LBanksSTS,,Temporal_Sup_L,S_temporal_sup,,AAL
+BL_RBanksSTS,,Temporal_Sup_R,S_temporal_sup,,AAL
+BL_LCaudAntCing,,Cingulum_Ant_L,,,AAL
+BL_RCaudAntCing,,Cingulum_Ant_R,,,AAL
+BL_LCaudMidFrontal,,Frontal_Mid_L,,,AAL
+BL_RCaudMidFrontal,,Frontal_Mid_R,,,AAL
+BL_LCuneus,,Cuneus_L,,,AAL
+BL_RCuneus,,Cuneus_R,,,AAL
+BL_LEntCtx,,,,Brodmann area 34,Talairach
+BL_REntCtx,,,,Brodmann area 34,Talairach
+BL_LFusiform,,Fusiform_L,,Brodmann area 37,AAL
+BL_RFusiform,,Fusiform_R,,Brodmann area 37,AAL
+BL_LInfParietal,,Parietal_Inf_L,,,AAL
+BL_RInfParietal,,Parietal_Inf_R,,,AAL
+BL_LInfTemporal,,Temporal_Inf_L,,,AAL
+BL_RInfTemporal,,Temporal_Inf_R,,,AAL
+BL_LIsthmCing,,Cingulum_Mid_L,,,AAL
+BL_RIsthmCing,,Cingulum_Mid_R,,,AAL
+BL_LLatOccipital,,Occipital_Sup_L,,,AAL
+BL_RLatOccipital,,Occipital_Sup_R,,,AAL
+BL_LLatOrbFrontal,,,,Brodmann area 47,Talairach
+BL_RLatOrbFrontal,,,,Brodmann area 47,Talairach
+BL_LLingual,,Lingual_L,,,AAL
+BL_RLingual,,Lingual_R,,,AAL
+BL_LMedOrbFrontal,,Frontal_Med_Orb_L,,,AAL
+BL_RMedOrbFrontal,,Frontal_Med_Orb_R,,,AAL
+BL_LMidTemporal,,Temporal_Mid_L,,,AAL
+BL_RMidTemporal,,Temporal_Mid_R,,,AAL
+BL_LParacentral,,Paracentral_Lobule_L,,,AAL
+BL_RParacentral,,Paracentral_Lobule_R,,,AAL
+BL_LParahipp,,ParaHippocampal_L,,,AAL
+BL_RParahipp,,ParaHippocampal_R,,,AAL
+BL_LParsOper,,,,Brodmann area 44,Talairach
+BL_RParsOper,,,,Brodmann area 44,Talairach
+BL_LParsOrb,,,,Brodmann area 47,Talairach
+BL_RParsOrb,,,,Brodmann area 47,Talairach
+BL_LParsTriang,,,,Brodmann area 45,Talairach
+BL_RParsTriang,,,,Brodmann area 45,Talairach
+BL_LPostcentral,,Postcentral_L,,,AAL
+BL_RPostcentral,,Postcentral_R,,,AAL
+BL_LPostCing,,Cingulum_Post_L,,,AAL
+BL_RPostCing,,Cingulum_Post_R,,,AAL
+BL_LPrecentral,,,,Brodmann area 4,Talairach
+BL_RPrecentral,,,,Brodmann area 4,Talairach
+BL_LPrecuneus,,Precuneus_L,,,AAL
+BL_RPrecuneus,,Precuneus_R,,,AAL
+BL_LRostAntCing,,,,Brodmann area 24+Brodmann area 32+Brodmann area 33,Talairach
+BL_RRostAntCing,,,,Brodmann area 24+Brodmann area 32+Brodmann area 33,Talairach
+BL_LRostMidFrontal,,,,Brodmann area 10,Talairach
+BL_RRostMidFrontal,,,,Brodmann area 10,Talairach
+BL_LSupFrontal,,Frontal_Sup_L,,,AAL
+BL_RSupFrontal,,Frontal_Sup_R,,,AAL
+BL_LSupParietal,,Parietal_Sup_L,,,AAL
+BL_RSupParietal,,Parietal_Sup_R,,,AAL
+BL_LSupTemporal,,,,Brodmann area 22,Talairach
+BL_RSupTemporal,,,,Brodmann area 22,Talairach
+BL_LSupramarg,,SupraMarginal_L,,,AAL
+BL_RSupramarg,,SupraMarginal_R,,,AAL
+BL_LFrontalPole,,,,Brodmann area 10,Talairach
+BL_RFrontalPole,,,,Brodmann area 10,Talairach
+BL_LTemporalPole,,Temporal_Pole_Mid_L,,,AAL
+BL_RTemporalPole,,Temporal_Pole_Mid_R,,,AAL
+BL_LTransvTemporal,,Temporal_Pole_Sup_L,,,AAL
+BL_RTransvTemporal,,Temporal_Pole_Sup_R,,,AAL

@@ -1,0 +1,209 @@
+Harvard-Oxford: Left Cerebral White Matter
+Harvard-Oxford: Left Cerebral Cortex 
+Harvard-Oxford: Left Lateral Ventrical
+Harvard-Oxford: Left Thalamus
+Harvard-Oxford: Left Caudate
+Harvard-Oxford: Left Putamen
+Harvard-Oxford: Left Pallidum
+Harvard-Oxford: Brain-Stem
+Harvard-Oxford: Left Hippocampus
+Harvard-Oxford: Left Amygdala
+Harvard-Oxford: Left Accumbens
+Harvard-Oxford: Right Cerebral White Matter
+Harvard-Oxford: Right Cerebral Cortex 
+Harvard-Oxford: Right Lateral Ventricle
+Harvard-Oxford: Right Thalamus
+Harvard-Oxford: Right Caudate
+Harvard-Oxford: Right Putamen
+Harvard-Oxford: Right Pallidum
+Harvard-Oxford: Right Hippocampus
+Harvard-Oxford: Right Amygdala
+Harvard-Oxford: Right Accumbens
+AAL: Precentral_L
+AAL: Precentral_R
+AAL: Frontal_Sup_L
+AAL: Frontal_Sup_R
+AAL: Frontal_Sup_Orb_L
+AAL: Frontal_Sup_Orb_R
+AAL: Frontal_Mid_L
+AAL: Frontal_Mid_R
+AAL: Frontal_Mid_Orb_L
+AAL: Frontal_Mid_Orb_R
+AAL: Frontal_Inf_Oper_L
+AAL: Frontal_Inf_Oper_R
+AAL: Frontal_Inf_Tri_L
+AAL: Frontal_Inf_Tri_R
+AAL: Frontal_Inf_Orb_L
+AAL: Frontal_Inf_Orb_R
+AAL: Rolandic_Oper_L
+AAL: Rolandic_Oper_R
+AAL: Supp_Motor_Area_L
+AAL: Supp_Motor_Area_R
+AAL: Olfactory_L
+AAL: Olfactory_R
+AAL: Frontal_Sup_Medial_L
+AAL: Frontal_Sup_Medial_R
+AAL: Frontal_Med_Orb_L
+AAL: Frontal_Med_Orb_R
+AAL: Rectus_L
+AAL: Rectus_R
+AAL: Insula_L
+AAL: Insula_R
+AAL: Cingulum_Ant_L
+AAL: Cingulum_Ant_R
+AAL: Cingulum_Mid_L
+AAL: Cingulum_Mid_R
+AAL: Cingulum_Post_L
+AAL: Cingulum_Post_R
+AAL: Hippocampus_L
+AAL: Hippocampus_R
+AAL: ParaHippocampal_L
+AAL: ParaHippocampal_R
+AAL: Amygdala_L
+AAL: Amygdala_R
+AAL: Calcarine_L
+AAL: Calcarine_R
+AAL: Cuneus_L
+AAL: Cuneus_R
+AAL: Lingual_L
+AAL: Lingual_R
+AAL: Occipital_Sup_L
+AAL: Occipital_Sup_R
+AAL: Occipital_Mid_L
+AAL: Occipital_Mid_R
+AAL: Occipital_Inf_L
+AAL: Occipital_Inf_R
+AAL: Fusiform_L
+AAL: Fusiform_R
+AAL: Postcentral_L
+AAL: Postcentral_R
+AAL: Parietal_Sup_L
+AAL: Parietal_Sup_R
+AAL: Parietal_Inf_L
+AAL: Parietal_Inf_R
+AAL: SupraMarginal_L
+AAL: SupraMarginal_R
+AAL: Angular_L
+AAL: Angular_R
+AAL: Precuneus_L
+AAL: Precuneus_R
+AAL: Paracentral_Lobule_L
+AAL: Paracentral_Lobule_R
+AAL: Caudate_L
+AAL: Caudate_R
+AAL: Putamen_L
+AAL: Putamen_R
+AAL: Pallidum_L
+AAL: Pallidum_R
+AAL: Thalamus_L
+AAL: Thalamus_R
+AAL: Heschl_L
+AAL: Heschl_R
+AAL: Temporal_Sup_L
+AAL: Temporal_Sup_R
+AAL: Temporal_Pole_Sup_L
+AAL: Temporal_Pole_Sup_R
+AAL: Temporal_Mid_L
+AAL: Temporal_Mid_R
+AAL: Temporal_Pole_Mid_L
+AAL: Temporal_Pole_Mid_R
+AAL: Temporal_Inf_L
+AAL: Temporal_Inf_R
+AAL: Cerebelum_Crus1_L
+AAL: Cerebelum_Crus1_R
+AAL: Cerebelum_Crus2_L
+AAL: Cerebelum_Crus2_R
+AAL: Cerebelum_3_L
+AAL: Cerebelum_3_R
+AAL: Cerebelum_4_5_L
+AAL: Cerebelum_4_5_R
+AAL: Cerebelum_6_L
+AAL: Cerebelum_6_R
+AAL: Cerebelum_7b_L
+AAL: Cerebelum_7b_R
+AAL: Cerebelum_8_L
+AAL: Cerebelum_8_R
+AAL: Cerebelum_9_L
+AAL: Cerebelum_9_R
+AAL: Cerebelum_10_L
+AAL: Cerebelum_10_R
+AAL: Vermis_1_2
+AAL: Vermis_3
+AAL: Vermis_4_5
+AAL: Vermis_6
+AAL: Vermis_7
+AAL: Vermis_8
+AAL: Vermis_9
+AAL: Vermis_10
+Talairach: Background
+Talairach: Brodmann area 20
+Talairach: Brodmann area 38
+Talairach: Brodmann area 36
+Talairach: Brodmann area 21
+Talairach: Brodmann area 28
+Talairach: Brodmann area 11
+Talairach: Dentate
+Talairach: Brodmann area 35
+Talairach: Brodmann area 47
+Talairach: Hippocampus
+Talairach: Brodmann area 34
+Talairach: Amygdala
+Talairach: Brodmann area 18
+Talairach: Brodmann area 37
+Talairach: Brodmann area 25
+Talairach: Brodmann area 17
+Talairach: Brodmann area 19
+Talairach: Optic Tract
+Talairach: Hypothalamus
+Talairach: Brodmann area 13
+Talairach: Substania Nigra
+Talairach: Red Nucleus
+Talairach: Caudate Tail
+Talairach: Mammillary Body
+Talairach: Putamen
+Talairach: Brodmann area 32
+Talairach: Brodmann area 10
+Talairach: Brodmann area 30
+Talairach: Brodmann area 27
+Talairach: Medial Geniculum Body
+Talairach: Brodmann area 22
+Talairach: Lateral Globus Pallidus
+Talairach: Subthalamic Nucleus
+Talairach: Medial Globus Pallidus
+Talairach: Caudate Head
+Talairach: Brodmann area 24
+Talairach: Lateral Geniculum Body
+Talairach: Anterior Commissure
+Talairach: Corpus Callosum
+Talairach: Ventral Posterior Lateral Nucleus
+Talairach: Ventral Posterior Medial Nucleus
+Talairach: Brodmann area 45
+Talairach: Brodmann area 46
+Talairach: Pulvinar
+Talairach: Medial Dorsal Nucleus
+Talairach: Ventral Lateral Nucleus
+Talairach: Ventral Anterior Nucleus
+Talairach: Brodmann area 29
+Talairach: Brodmann area 41
+Talairach: Brodmann area 42
+Talairach: Brodmann area 6
+Talairach: Anterior Nucleus
+Talairach: Brodmann area 44
+Talairach: Caudate Body
+Talairach: Brodmann area 39
+Talairach: Brodmann area 23
+Talairach: Lateral Posterior Nucleus
+Talairach: Brodmann area 43
+Talairach: Brodmann area 31
+Talairach: Brodmann area 40
+Talairach: Lateral Dorsal Nucleus
+Talairach: Midline Nucleus
+Talairach: Brodmann area 4
+Talairach: Brodmann area 9
+Talairach: Brodmann area 33
+Talairach: Brodmann area 2
+Talairach: Brodmann area 1
+Talairach: Brodmann area 3
+Talairach: Brodmann area 7
+Talairach: Brodmann area 8
+Talairach: Brodmann area 5

@@ -1,0 +1,16 @@
+	============================CNN============================
+	accuracy. mean: 0.2967, std: 0.0, scores: [0.2967032967032967]
+	precision_0. mean: 0.8333, std: 0.0, scores: [0.8333333333333334]
+	precision_1. mean: 0.2588, std: 0.0, scores: [0.25882352941176473]
+	recall_0. mean: 0.0735, std: 0.0, scores: [0.07352941176470588]
+	recall_1. mean: 0.9565, std: 0.0, scores: [0.9565217391304348]
+	F1 score_0. mean: 0.1351, std: 0.0, scores: [0.13513513513513514]
+	F1 score_1. mean: 0.4074, std: 0.0, scores: [0.40740740740740744]
+	============================CNN_1============================
+	accuracy. mean: 0.4835, std: 0.0, scores: [0.4835164835164835]
+	precision_0. mean: 0.8621, std: 0.0, scores: [0.8620689655172413]
+	precision_1. mean: 0.3065, std: 0.0, scores: [0.3064516129032258]
+	recall_0. mean: 0.3676, std: 0.0, scores: [0.36764705882352944]
+	recall_1. mean: 0.8261, std: 0.0, scores: [0.8260869565217391]
+	F1 score_0. mean: 0.5155, std: 0.0, scores: [0.5154639175257733]
+	F1 score_1. mean: 0.4471, std: 0.0, scores: [0.44705882352941173]

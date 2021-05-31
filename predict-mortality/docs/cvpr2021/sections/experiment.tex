@@ -1,0 +1,14 @@
+\iffalse
+We experimentally demonstrated the added value of these novel characteristics in predicting the MCI-to-AD conversion on data obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database. 
+The results presented in this study demonstrate the potential of the suggested approach for early AD diagnosis and an important role of MRI in the MCI-to-AD conversion prediction. However, it is evident based on our results that combining MRI data with cognitive test results improved the accuracy of the MCI-to-AD conversion prediction. : %% Multi - modal
+The data used in this work is obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (www.loni.usc.edu/ADNI) and it includes MRI scans and neuropsychological test results from normal controls (NC), AD, and MCI subjects with a matched age range.
+Data used in this work is obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (http://adni.loni.usc.edu/). 
+Data used in this work include all subjects for whom baseline MRI data (T1-weighted MP-RAGE sequence at 1.5 T, typically 256 × 256 × 170 voxels with the voxel size of approximately 1 mm × 1 mm × 1.2 mm), at least moderately confident diagnoses (i.e. confidence > 2), hippocampus volumes (i.e. volumes of left and right hippocampi, calculated by FreeSurfer Version 4.3), and test scores in certain cognitive scales (i.e. ADAS: Alzheimer’s Disease Assessment Scale, range 0–85; CDR-SB: Clinical Dementia Rating ‘sum of boxes’, range 0–18; MMSE: Mini-Mental State Examination, range 0–30) were available.
+We should note that, for fair comparison, we used the same training and test data across the experiments for all the competing methods.
+\fi
+
+\section{Experiment}
+% The distribution of a feature may be categorized -> swap is better than gradient.
+Our experiment consists of two parts; (1) we evaluate the prediction performance of our proposed method, and (2) we identify the biomarkers highly correlated to AD.
+\subsection{ADNI Dataset Description}
+We obtain the data used in this experiment from the ADNI database (\url{adni.loni.usc.edu}). We download 1.5 T MRI scans and demographic information for 821 ADNI-1 participants. We perform voxel-based morphometry (VBM) and FreeSurfer (FS) on the MRI data by following~\cite{risacher2010longitudinal} and extracted mean modulated gray matter (GM) measure for 90 target regions of interest (ROI). In this analysis, the time points for both imaging records and AD diagnosis include baseline, M6, M12, M18, M24 and M36. 

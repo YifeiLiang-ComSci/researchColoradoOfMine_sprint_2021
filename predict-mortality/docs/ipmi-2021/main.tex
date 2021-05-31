@@ -1,0 +1,67 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{makecell}
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}}
+
+\begin{document}
+%
+\title{Learning Deeply Enriched Representations of Longitudinal Imaging-Genetic Data to Predict Alzheimer's Disease Progression}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+% \author{Anonymous Author(s)}
+%
+% \authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+% \institute{Princeton University, Princeton NJ 08544, USA \and
+% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+% \email{lncs@springer.com}\\
+% \url{http://www.springer.com/gp/computer-science/lncs} \and
+% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+% \email{\{abc,lncs\}@uni-heidelberg.de}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+% The abstract should briefly summarize the contents of the paper in
+% 150--250 words.
+% (However, missing records that broadly exist in the longitudinal neuroimaging data have posed a critical challenge for effectively using these data in machine learning models.)
+% (To tackle these difﬁculties, in this paper we propose a novel approach to integrate longitudinal (dynamic) phenotypic data and static genetic data to learn a ﬁxed-length biomarker representation using the enrichment learned from the temporal data in multiple imaging modalities.)
+% enriched biomarker representation, as a ﬁxed-length vector per participant,
+% We use a composite model of  autoencoders based on Recurrent Neural Network.
+Alzheimer’s Disease (AD) is a progressive memory disorder that causes irreversible cognitive decline. As the early diagnosis is important to prevent AD progression, many biomarker analysis models have been presented to detect the progression in its early stage. However, these models often fail to integrate longitudinal (dynamic) phenotypic data with the static genetic data, and/or cannot deal with the missing data in the incomplete temporal neuroimaging records. To tackle these difficulties, we propose the semi-supervised enrichment learning method to learn the fixed-length vectorial representation of multi-modal data per participant. Our enrichment model is the ensemble of the novel long short-term memory (LSTM) autoencoder and the deep neural networks which is designed to handle multi-modal information and utilize the labeled and unlabeled samples both. We have applied our new method on the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort and achieved 75\% accuracy on multiclass AD progression prediction task for 1 year ahead. In addition to the improved prediction performance when compared against some widely used machine learning algorithms, our deep learning model identifies the disease relevant biomarkers.\footnote{The codes used in our experiments will be made publicly accessible on GitHub upon paper acceptance.}
+% \keywords{First keyword  \and Second keyword \and Another keyword.}
+\end{abstract}
+% Your manuscript should be no longer than 12 pages (including references), and anonymized.
+
+\input{sections/introduction.tex}
+\input{sections/method.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{biblio}
+%
+
+\end{document}

@@ -1,0 +1,6 @@
+	============================SAE============================
+	accuracy. mean: 0.7473, std: 0.0, scores: [0.7472527472527473]
+	precision_0. mean: 0.7473, std: 0.0, scores: [0.7472527472527473]
+	precision_1. mean: nan, std: nan, scores: [nan]
+	recall_0. mean: 1.0, std: 0.0, scores: [1.0]
+	recall_1. mean: 0.0, std: 0.0, scores: [0.0]

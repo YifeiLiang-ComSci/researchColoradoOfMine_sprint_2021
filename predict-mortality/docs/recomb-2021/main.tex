@@ -1,0 +1,77 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+% Packages loaded by author.
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{makecell}
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Learning Deeply Enriched Representations of Temporal Data of COVID-19 Patients for Improved Mortality Prediction}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Hoon Seo \and
+Ibrohim Nosirov \and
+Hua Wang}
+%
+\authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Colorado School of Mines, Golden, CO 80401, USA}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+\iffalse
+Learning compressed representations of multivariate time series (MTS) facilitates data analysis in the presence of noise and redundant information, and for a large number of variates and time steps. However, classical dimensionality reduction approaches are designed for vectorial data and cannot deal explicitly with missing values. In this work, we propose a novel autoencoder architecture based on recurrent neural networks to generate compressed representations of MTS.
+
+Although semi-supervised variational autoencoder (SemiVAE) works in image classiﬁcation task, it fails in text classiﬁcation task if using vanilla LSTM as its decoder. From a perspective of reinforcement learning, it is veriﬁed that the decoder’s capability to distinguish between different categorical labels is essential. Therefore, Semi-supervised Sequential Variational Autoencoder (SSVAE) is proposed, which increases the capability by feeding label into its decoder RNN at each time-step. Two speciﬁc decoder structures are investigated and both of them are veriﬁed to be effective.
+\fi
+% The abstract should briefly summarize the contents of the paper in 15--250 words. 
+An influx of COVID-19 infections puts pressure on healthcare systems and disrupts their general care routine, and efficient allocation of finite resources becomes a crucial problem. To aid logistical decision making, we propose novel semi-supervised framework to predict clinical outcomes from longitudinal records of COVID-19 patients. We use Long Short Term Memory (LSTM) architecture to learn the fixed length vectorial abstract representation summarizing the incomplete time series with varying length and uneven time intervals. In our experiments, our approach predicts mortality in more than 10 days with the blood samples collected from the 358 patients infected with COVID-19 in Wuhan, China. Our embedding framework shows 88\% to 94\% prediction accuracy, even if very few samples are labeled. We release our code for implementation of proposed framework.\footnote{During review, our code is hosted in the Supplementary Information on EasyChair.}
+%% begin-IB
+% An influx of COVID-19 infections puts pressure on healthcare systems and
+% disrupts their general care routine, leading to an increase in excess
+% deaths. Efficient allocation of finite resources, is a persistent problem
+% most apparent during a sudden influx of patients. Earlier studies have
+% suggested the use of biomarkers, particularly those measured in blood
+% samples, to build mortality-prediction models to aid in logistical
+% decision-making. These same studies focused on isolating predictive
+% biomarkers rather than building a deterministic model. This paper uses
+% longitudinal data collected from blood samples of 375 patients infected
+% with COVID-19 in Wuhan, China, to produce a general predictive
+% mortality-prediction models. We propose an embedding framework that
+% summarizes sparse time series measurements into a single fixed-length
+% vector by combining locality preserving projections and deep learning.
+% Models equipped with this new framework promise significantly higher
+% prediction accuracy in addition to training on less data.
+%% end-IB
+\keywords{COVID-19  \and Longitudinal Learning \and Semi-supervised \and Enrichment}
+\end{abstract}
+\input{sections/introduction.tex}
+\input{sections/methods.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{bibliography}
+\end{document}

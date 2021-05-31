@@ -1,0 +1,87 @@
+% This version of CVPR template is provided by Ming-Ming Cheng.
+% Please leave an issue if you found a bug:
+% https://github.com/MCG-NKU/CVPR_Template.
+
+\documentclass[review]{cvpr}
+%\documentclass[final]{cvpr}
+
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,colorlinks,bookmarks=false]{hyperref}
+
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\confYear{CVPR 2021}
+%\setcounter{page}{4321} % For final version only
+
+
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Learning Deep Neuroimaging Representation by Longitudinal Augmentations}
+
+\author{First Author\\
+Institution1\\
+Institution1 address\\
+{\tt\small firstauthor@i1.org}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Second Author\\
+Institution2\\
+First line of institution2 address\\
+{\tt\small secondauthor@i2.org}
+}
+
+\maketitle
+
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+   Alzheimer's Disease (AD) is a chronic neurodegenerative disease that severely causes problems on patient's thinking, memory, and behavior. As early diagnosis is important to prevent AD progression, many biomarker analysis models have been presented to predict clinical outcomes. However, these models often fail to integrate heterogeneous genotypic and phenotype biomarkers to improve diagnosis prediction and/or are not able to deal with the incomplete longitudinal biomarkers with missing entries/records. Thus we propose the semi-supervised augmentation learning method to learn a abstract vectorial representation of multimodal longitudinal biomarkers. We use a composite model of  autoencoders based on Recurrent Neural Network. Our experiments show that our augmentation model improves the prediction performance on AD progression.
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+%% --- Useful instructions from template:
+% Papers, excluding the references section,
+% must be no longer than eight pages in length. The references section
+% will not be included in the page count, and there is no limit on the
+% length of the references section. For example, a paper of eight pages
+% with two pages of references would have a total length of 10 pages.
+
+% Please number all of your sections and displayed equations.~\cite{Authors14}
+
+% \begin{figure}[t]
+%    \begin{center}
+%    \fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+%       %\includegraphics[width=0.8\linewidth]{egfigure.eps}
+%    \end{center}
+%       \caption{Example of caption.  It is set in Roman so that mathematics
+%       (always set in Roman: $B \sin A = A \sin B$) may be included without an
+%       ugly clash.}
+%    \label{fig:long}
+%    \label{fig:onecol}
+% \end{figure}
+
+\input{sections/introduction.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+
+{\small
+\bibliographystyle{ieee_fullname}
+\bibliography{bibliography}
+}
+
+\end{document}

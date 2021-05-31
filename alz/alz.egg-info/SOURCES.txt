@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+alz.egg-info/PKG-INFO
+alz.egg-info/SOURCES.txt
+alz.egg-info/dependency_links.txt
+alz.egg-info/not-zip-safe
+alz.egg-info/requires.txt
+alz.egg-info/top_level.txt

@@ -1,0 +1,206 @@
+\def\year{2021}\relax
+%File: formatting-instructions-latex-2021.tex
+%release 2021.1
+\documentclass[letterpaper]{article} % DO NOT CHANGE THIS
+\usepackage{aaai21}  % DO NOT CHANGE THIS
+\usepackage{times}  % DO NOT CHANGE THIS
+\usepackage{helvet} % DO NOT CHANGE THIS
+\usepackage{courier}  % DO NOT CHANGE THIS
+\usepackage[hyphens]{url}  % DO NOT CHANGE THIS
+\usepackage{graphicx} % DO NOT CHANGE THIS
+\urlstyle{rm} % DO NOT CHANGE THIS
+\def\UrlFont{\rm}  % DO NOT CHANGE THIS
+\usepackage{natbib}  % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\usepackage{caption} % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\frenchspacing  % DO NOT CHANGE THIS
+\setlength{\pdfpagewidth}{8.5in}  % DO NOT CHANGE THIS
+\setlength{\pdfpageheight}{11in}  % DO NOT CHANGE THIS
+%\nocopyright
+%PDF Info Is REQUIRED.
+% For /Author, add all authors within the parentheses, separated by commas. No accents or commands.
+% For /Title, add Title in Mixed Case. No accents or commands. Retain the parentheses.
+\pdfinfo{
+/Title (Unsupervised Embedding via Locality Preserving Autoencoder to Predict Mortality in Patients with COVID-19)
+/Author (Hoon Seo, Hua Wang)
+} %Leave this
+% /Title ()
+% Put your actual complete title (no codes, scripts, shortcuts, or LaTeX commands) within the parentheses in mixed case
+% Leave the space between \Title and the beginning parenthesis alone
+% /Author ()
+% Put your actual complete list of authors (no codes, scripts, shortcuts, or LaTeX commands) within the parentheses in mixed case.
+% Each author should be only by a comma. If the name contains accents, remove them. If there are any LaTeX commands,
+% remove them.
+
+%% Load Packages
+\usepackage{amsmath}
+
+% DISALLOWED PACKAGES
+% \usepackage{authblk} -- This package is specifically forbidden
+% \usepackage{balance} -- This package is specifically forbidden
+% \usepackage{color (if used in text)
+% \usepackage{CJK} -- This package is specifically forbidden
+% \usepackage{float} -- This package is specifically forbidden
+% \usepackage{flushend} -- This package is specifically forbidden
+% \usepackage{fontenc} -- This package is specifically forbidden
+% \usepackage{fullpage} -- This package is specifically forbidden
+% \usepackage{geometry} -- This package is specifically forbidden
+% \usepackage{grffile} -- This package is specifically forbidden
+% \usepackage{hyperref} -- This package is specifically forbidden
+% \usepackage{navigator} -- This package is specifically forbidden
+% (or any other package that embeds links such as navigator or hyperref)
+% \indentfirst} -- This package is specifically forbidden
+% \layout} -- This package is specifically forbidden
+% \multicol} -- This package is specifically forbidden
+% \nameref} -- This package is specifically forbidden
+% \usepackage{savetrees} -- This package is specifically forbidden
+% \usepackage{setspace} -- This package is specifically forbidden
+% \usepackage{stfloats} -- This package is specifically forbidden
+% \usepackage{tabu} -- This package is specifically forbidden
+% \usepackage{titlesec} -- This package is specifically forbidden
+% \usepackage{tocbibind} -- This package is specifically forbidden
+% \usepackage{ulem} -- This package is specifically forbidden
+% \usepackage{wrapfig} -- This package is specifically forbidden
+% DISALLOWED COMMANDS
+% \nocopyright -- Your paper will not be published if you use this command
+% \addtolength -- This command may not be used
+% \balance -- This command may not be used
+% \baselinestretch -- Your paper will not be published if you use this command
+% \clearpage -- No page breaks of any kind may be used for the final version of your paper
+% \columnsep -- This command may not be used
+% \newpage -- No page breaks of any kind may be used for the final version of your paper
+% \pagebreak -- No page breaks of any kind may be used for the final version of your paperr
+% \pagestyle -- This command may not be used
+% \tiny -- This is not an acceptable font size.
+% \vspace{- -- No negative value may be used in proximity of a caption, figure, table, section, subsection, subsubsection, or reference
+% \vskip{- -- No negative value may be used to alter spacing above or below a caption, figure, table, section, subsection, subsubsection, or reference
+
+\setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+% The file aaai21.sty is the style file for AAAI Press
+% proceedings, working notes, and technical reports.
+%
+
+% Title
+
+% Your title must be in mixed case, not sentence case.
+% That means all verbs (including short verbs like be, is, using,and go),
+% nouns, adverbs, adjectives should be capitalized, including both words in hyphenated terms, while
+% articles, conjunctions, and prepositions are lower case unless they
+% directly follow a colon or long dash
+
+\title{Unsupervised Embedding via Locality Preserving Autoencoder for Improved Mortality Prediction in Patients with COVID-19}
+\author{
+    %Authors
+    % All authors must be in the same font size and format.
+    Anonymous Authors
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    The outbreak of the coronavirus disease 2019 (COVID-19) is putting a huge burden on healthcare workers, and the high fatality rates of COVID-19 have been reported. To alleviate the pressures on the critical care capacity and optimize the allocation of medical resources, the mortality prediction from the patient's records is increasingly becoming a vital factor. This paper proposes the embedding framework to improve the mortality prediction from uneven time series data with missing entries. The proposed embedding framework utilizes the time intervals between patient's records and summarizes them in a format of fixed length vector, by combining deep learning and locality preserving projection. 
+    % Our embedding model is free from cold start problem, thus it is proper for the fast clinical assessment on COVID-19 patients. 
+    In our experiments, the proposed embedding model shows improved mortality prediction from the blood samples of 485 COVID-19 positive patients in the region of Wuhan, China.
+\end{abstract}
+
+\iffalse
+To support decision making and logistical planning in healthcare systems, this study leverages a database of blood samples from 485 infected patients in the region of Wuhan, China, to identify crucial predictive biomarkers of disease mortality. 
+A retrospective study was conducted on 375 COVID-19 positive patients admitted to Tongji Hospital (China). 
+PIBA estimated the death rate based on data of the patients in Wuhan and then in other cities throughout China.
+We report a new methodology, the Patient Information Based Algorithm (PIBA), for estimating the death rate of a disease in real-time using publicly available data collected during an outbreak. 
+It is an acute public health crisis leading to overloaded critical care capacity. Timely prediction of the clinical outcome (death/survival) of hospital-admitted COVID-19 patients can provide early warnings to clinicians, allowing improved allocation of medical resources. 
+The pandemic spread of coronavirus leads to increased burden on healthcare services worldwide. Experience shows that required medical treatment can reach limits at local clinics and fast and secure clinical assessment of the disease severity becomes vital. In L. Yan et al. a model is presented for predicting the mortality of COVID-19 patients from their biomarkers.
+Background: The triage of coronavirus-19 patients into various strata based on some prognostic indicator might prove a utilitarian strategy in the management of epidemic. The goal of health-care facilities is optimization of the use of medical resources. The present study aimed to develop a predictor model of mortality risk from routine hematologic parameters. Patients and Methods: In this retrospective case–control study, seventy survivors (n = 47) and nonsurvivors (n = 23) were enrolled who were laboratory-confirmed coronavirus disease 2019 (COVID-19) cases from SMS Medical College, Jaipur (Rajasthan, India). The clinical and routine blood profile of the survivors and nonsurvivors was recorded. A logistic regression model was fitted with step-wise method to the above dataset with dependent variable such as survivor or nonsurvivor and independent variables such as age, sex, symptoms, random blood glucose, and complete blood count.
+A nomogram was developed for predicting the mortality risk among COVID-19 patients.
+Fast, reliable and early clinical assessment of the severity of the disease can help in allocating and prioritizing resources to reduce mortality. In order to study the important blood biomarkers for predicting disease mortality, a retrospective study was conducted on 375 COVID-19 positive patients admitted to Tongji Hospital (China) from January 10 to February 18, 2020. 
+\fi
+
+\iffalse
+No cold start problem, once trained, can be used to new patient's data without training phase.
+Use latest record.
+Feed the static data (gender, age) to autoencoder together.
+Recall error in classification prediction results.
+\fi
+
+\section{Objective Formulation}
+\subsection{Notation}
+We denotes the records of $i$-th participant as $\{\mathbf{x}_i, \mathbf{X}_i, \mathbf{m}_i, \mathbf{M}_i\}$, where $\mathbf{x}_i \in \Re^{d}$, $\mathbf{m}_i \in \{0, 1\}^{d}$ are baseline measurements and masks and $\mathbf{X}_i \in \Re^{d \times n_i}$, $\mathbf{M}_i \in \{0, 1\}^{d \times n_i}$ summarizes the measurements and masks of all the available time records. The measurement's time point of $i$-th participant and $j$-th record is denoted as $t^i_j$. The local projection for $i$-th patient is denoted as $\mathbf{W}_i \in \Re^{d \times r}$.
+\subsection{Objective}
+The objective to minimize is following:
+
+\begin{math}
+    \begin{aligned}
+    &\mathcal{J}(\mathbf{W}_i, \mathcal{W}_{enc}, \mathcal{W}_{dec})=\\
+    &\gamma_1 \sum_{i = 1}^n \left\| (\operatorname{dec}(\operatorname{enc}(\mathbf{x}_i, \mathbf{m}_i; \mathcal{W}_{enc}); \mathcal{W}_{dec}) - \mathbf{x}_i) \odot \mathbf{m}_i \right\|_2^p\\ 
+    &+ \gamma_2 \sum_{i=1}^n \sum\limits_{\substack{\mathbf{x}^i_j, \mathbf{x}^i_k \in \mathbf{X}_i \\ \mathbf{m}^i_j, \mathbf{m}^i_k \in \mathbf{M}_i}} s^i_{jk} \left\| \mathbf{W}_i^T ((\mathbf{x}^i_j - \mathbf{x}^i_k) \odot \mathbf{m}^i_j \odot \mathbf{m}^i_k)\right\|_2^p \\
+    &+ \gamma_3 \sum_{i=1}^n \left\| \operatorname{enc}(\mathbf{x}_i, \mathbf{m}_i; \mathcal{W}_{enc}) - \mathbf{W}_i^T (\mathbf{x}_i \odot \mathbf{m}_i) \right\|_2^p,\\ 
+    &s.t.\quad \mathbf{W}^T_i \mathbf{W}_i = \mathbf{I}
+    \end{aligned}
+\end{math}
+, where $\operatorname{enc}(\mathbf{x}_i, \mathbf{m}_i; \mathcal{W}_{enc}) \in \Re^{r}$ is encoded vector from the encoder and $\operatorname{dec}: \Re^r \mapsto \Re^d$ is the decoder. The pairwise similarity coefficient $s^i_{jk}$ is given as the inverse of time interval between $j$-th record and $k$-th record, $s^i_{jk} = \frac{1}{\| t^i_j - t^i_k \|}$. The above objective learns a global projection from auto-encoder, and the local projections from the minimization fo Locality Preserving Loss which minimizes the difference between the local projections at the two different time points when the time interval between them is small. We may try below variations:
+
+\begin{itemize}
+\item Instead of plain auto-encoder, we may use LSTM based auto-encoder as Ball describes in his MS thesis.
+\item The proposed objective is able to learn the enriched representation of not only baseline but also all the available records. We may learn the enriched representations of all the available records, and then use conventional time series analysis models such as RNN.
+\end{itemize}
+
+\subsection{Objective 2}
+The objective without soft constraint between local and global consistency:
+
+\begin{math}
+    \begin{aligned}
+    &\mathcal{J}(\mathcal{W}_{enc}, \mathcal{W}_{dec})=\\
+    &\sum_{i=1}^n(\gamma_1 \sum\limits_{\substack{\mathbf{x}_j^i \in \mathbf{X}_i,\\\mathbf{m}_j^i \in \mathbf{M}_i}}\| (\operatorname{dec}(\operatorname{enc}(\mathbf{x}^i_j, \mathbf{m}^i_j; \mathcal{W}_{enc}); \mathcal{W}_{dec}) - \mathbf{x}^i_j)\odot \mathbf{m}^i_j \|_2^p\\ 
+    &+ \gamma_2 \sum\limits_{\substack{\mathbf{x}^i_j, \mathbf{x}^i_k \in \mathbf{X}_i, \\ \mathbf{m}^i_j, \mathbf{m}^i_k \in \mathbf{M}_i}} s^i_{jk} \| \operatorname{enc}(\mathbf{x}^i_j, \mathbf{m}^i_j; \mathcal{W}_{enc}) - \operatorname{enc}(\mathbf{x}^i_k, \mathbf{m}^i_k; \mathcal{W}_{enc})\|_2^p )
+    \end{aligned}
+\end{math}
+
+
+
+%% begin: Useful template instructions, which can be removed.
+
+% \subsection{Overlength Papers}
+% If your paper is too long and you resort to formatting tricks to make it fit, it is quite likely that it will be returned to you. The best way to retain readability if the paper is overlength is to cut text, figures, or tables. There are, a few acceptable ways to reduce paper size that don't affect readability. First, turn on \textbackslash frenchspacing, which will reduce the space after periods. Next, move all your figures and tables to the top of the page. Consider removing less important portions of a figure. If you use \textbackslash centering instead of \textbackslash begin\{center\} in your figure environment, you can also buy some space. For mathematical environments, you may reduce fontsize {\bf but not below 6.5 point}.
+
+
+% Commands that alter page layout are forbidden. These include \textbackslash columnsep,  \textbackslash float, \textbackslash topmargin, \textbackslash topskip, \textbackslash textheight, \textbackslash textwidth, \textbackslash oddsidemargin, and \textbackslash evensizemargin (this list is not exhaustive). If you alter page layout, you will be required to pay the page fee. Other commands that are questionable and may cause your paper to be rejected include \textbackslash parindent, and \textbackslash parskip. Commands that alter the space between sections are forbidden. The title sec package is not allowed. Regardless of the above, if your paper is obviously ``squeezed" it is not going to to be accepted. Options for reducing the length of a paper include reducing the size of your graphics, cutting text, or paying the extra page charge (if it is offered).
+
+% \begin{figure}[t]
+% \centering
+% \includegraphics[width=0.9\columnwidth]{figure1} % Reduce the figure size so that it is slightly narrower than the column. Don't use precise values for figure width.This setup will avoid overfull boxes.
+% \caption{Using the trim and clip commands produces fragile layers that can result in disasters (like this one from an actual paper) when the color space is corrected or the PDF combined with others for the final proceedings. Crop your figures properly in a graphics program -- not in LaTeX}.
+% \label{fig1}
+% \end{figure}
+
+% \begin{figure*}[t]
+% \centering
+% \includegraphics[width=0.8\textwidth]{figure2} % Reduce the figure size so that it is slightly narrower than the column.
+% \caption{Adjusting the bounding box instead of actually removing the unwanted data resulted multiple layers in this paper. It also needlessly increased the PDF size. In this case, the size of the unwanted layer doubled the paper's size, and produced the following surprising results in final production. Crop your figures properly in a graphics program. Don't just alter the bounding box.}
+% \label{fig2}
+% \end{figure*}
+
+% Using the \centering command instead of \begin{center} ... \end{center} will save space
+% Positioning your figure at the top of the page will save space and make the paper more readable
+% Using 0.95\columnwidth in conjunction with the
+
+% References may be the same size as surrounding text. However, in this section (only), you may reduce the size to \textbackslash small if your paper exceeds the allowable number of pages. Making it any smaller than 9 point with 10 point linespacing, however, is not allowed. A more precise and exact method of reducing the size of your references minimally is by means of the following command: \begin{quote}
+% \textbackslash fontsize\{9.8pt\}\{10.8pt\}
+% \textbackslash selectfont\end{quote}
+
+% \noindent You must reduce the size equally for both font size and line spacing, and may not reduce the size beyond \{9.0pt\}\{10.0pt\}.
+
+% The list of files in the \textbackslash bibliography command should be the names of your BibTeX source files (that is, the .bib files referenced in your paper).
+
+% The following commands are available for your use in citing references:
+% \begin{quote}
+% {\em \textbackslash cite:} Cites the given reference(s) with a full citation. This appears as ``(Author Year)'' for one reference, or ``(Author Year; Author Year)'' for multiple references.\smallskip\\
+% {\em \textbackslash shortcite:} Cites the given reference(s) with just the year. This appears as ``(Year)'' for one reference, or ``(Year; Year)'' for multiple references.\smallskip\\
+% {\em \textbackslash citeauthor:} Cites the given reference(s) with just the author name(s) and no parentheses.\smallskip\\
+% {\em \textbackslash citeyear:} Cites the given reference(s) with just the date(s) and no parentheses.
+% \end{quote}
+
+%% end: Useful template instructions, which can be removed.
+
+\end{document}

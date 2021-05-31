@@ -1,0 +1,36 @@
+	Note: 
+{'np': 2, 'tf': 4}
+	=================== Dataset ===================
+{
+	'this_dataset_is_splitted': True,
+	'init_number_for_unobserved_entry': -10.0,
+	'ID': 1617558727.533362,
+	'dataset_kind': 'chestxray',
+	'path_to_dataset': '/Users/yifeiliang/Downloads/covid-chestxray-dataset',
+	'class_names': Non-printable,
+	'apply_segment': False,
+	'dataframe_raw': Non-printable,
+	'dataframe': Non-printable,
+	'prediction_label_mapping': Non-printable,
+	'num_patients': 455,
+	'train_proportion': Non-printable,
+	'k_fold': 5,
+	'whether_training_is_large': True
+}
+	============================CNN============================
+{
+	'model_class': <class 'estimator.CNN'>,
+	'init': {
+	},
+	'fit': {
+		'epochs': +++!< 27 >!+++,
+		'class_weight': +++!< {
+			0: 0.6589595375722543,
+			1: 4.56
+		} >!+++
+	},
+	'predict': {
+	},
+	'fit_on': 'train',
+	'name': 'CNN'
+}

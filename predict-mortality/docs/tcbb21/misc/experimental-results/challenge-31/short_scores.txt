@@ -1,0 +1,42 @@
+	============================SAE-SVM============================
+	accuracy. mean: 0.8473, std: 0.0, scores: [0.8473091364205256]
+	precision_0. mean: 0.8878, std: 0.0, scores: [0.8878116343490304]
+	precision_1. mean: 0.4675, std: 0.0, scores: [0.4675324675324675]
+	recall_0. mean: 0.9399, std: 0.0, scores: [0.9398826979472141]
+	recall_1. mean: 0.3077, std: 0.0, scores: [0.3076923076923077]
+	============================SAE-FCL============================
+	accuracy. mean: 0.8536, std: 0.0, scores: [0.853566958698373]
+	precision_0. mean: 0.8536, std: 0.0, scores: [0.853566958698373]
+	precision_1. mean: nan, std: nan, scores: [nan]
+	recall_0. mean: 1.0, std: 0.0, scores: [1.0]
+	recall_1. mean: 0.0, std: 0.0, scores: [0.0]
+	============================BLSTM============================
+	accuracy. mean: 0.8536, std: 0.0, scores: [0.853566958698373]
+	precision_0. mean: 0.8536, std: 0.0, scores: [0.853566958698373]
+	precision_1. mean: nan, std: nan, scores: [nan]
+	recall_0. mean: 1.0, std: 0.0, scores: [1.0]
+	recall_1. mean: 0.0, std: 0.0, scores: [0.0]
+	============================RC============================
+	accuracy. mean: 0.5019, std: 0.0, scores: [0.5018773466833542]
+	precision_0. mean: 0.9437, std: 0.0, scores: [0.94375]
+	precision_1. mean: 0.2067, std: 0.0, scores: [0.20668058455114824]
+	recall_0. mean: 0.4428, std: 0.0, scores: [0.44281524926686217]
+	recall_1. mean: 0.8462, std: 0.0, scores: [0.8461538461538461]
+	============================RF============================
+	accuracy. mean: 0.8561, std: 0.0, scores: [0.8560700876095119]
+	precision_0. mean: 0.8584, std: 0.0, scores: [0.8584070796460177]
+	precision_1. mean: 0.625, std: 0.0, scores: [0.625]
+	recall_0. mean: 0.9956, std: 0.0, scores: [0.9956011730205279]
+	recall_1. mean: 0.0427, std: 0.0, scores: [0.042735042735042736]
+	============================SVM============================
+	accuracy. mean: 0.1652, std: 0.0, scores: [0.16520650813516896]
+	precision_0. mean: 0.7419, std: 0.0, scores: [0.7419354838709677]
+	precision_1. mean: 0.1419, std: 0.0, scores: [0.14192708333333334]
+	recall_0. mean: 0.0337, std: 0.0, scores: [0.03372434017595308]
+	recall_1. mean: 0.9316, std: 0.0, scores: [0.9316239316239316]
+	============================MLP============================
+	accuracy. mean: 0.8023, std: 0.0, scores: [0.8022528160200251]
+	precision_0. mean: 0.8732, std: 0.0, scores: [0.8732193732193733]
+	precision_1. mean: 0.2887, std: 0.0, scores: [0.28865979381443296]
+	recall_0. mean: 0.8988, std: 0.0, scores: [0.8988269794721407]
+	recall_1. mean: 0.2393, std: 0.0, scores: [0.23931623931623933]

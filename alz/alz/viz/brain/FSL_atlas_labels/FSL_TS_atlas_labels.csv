@@ -1,0 +1,73 @@
+TADPOLE,Harvard-Oxford,AAL,Talairach,Atlas
+ST102TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Paracentral_Lobule_R,Paracentral Lobule,AAL
+ST103TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,ParaHippocampal_R,Parahippocampal Gyrus,AAL
+ST104TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Frontal_Inf_Oper_R,Inferior Frontal Gyrus,AAL
+ST105TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Frontal_Inf_Orb_R,Inferior Frontal Gyrus,AAL
+ST106TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Frontal_Inf_Tri_R,Inferior Frontal Gyrus,AAL
+ST107TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST108TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Postcentral_R,Postcentral Gyrus,AAL
+ST109TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Cingulate Gyrus, posterior division",Cingulum_Post_R,Posterior Cingulate,AAL
+ST110TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Precentral_R,Precentral Gyrus,AAL
+ST111TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Precuneus_R,Precuneus,AAL
+ST113TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Cingulate Gyrus, anterior division",Cingulum_Ant_R,nan,AAL
+ST114TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Middle Frontal Gyrus,nan,Brodmann area 46,Talairach
+ST115TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Superior Frontal Gyrus,Frontal_Sup_R,Superior Frontal Gyrus,AAL
+ST116TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Superior Parietal Lobule,Parietal_Sup_R,Superior Parietal Lobule,AAL
+ST117TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Superior Temporal Gyrus, anterior division+Right Superior Temporal Gyrus, posterior division",Temporal_Sup_R,Superior Temporal Gyrus,AAL
+ST118TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Supramarginal Gyrus, anterior division+Right Supramarginal Gyrus, posterior division",SupraMarginal_R,Supramarginal Gyrus,AAL
+ST119TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Temporal Pole,Temporal_Pole_Mid_R,Brodmann area 38,Talairach
+ST121TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Middle Temporal Gyrus, anterior division",Temporal_Mid_R,Transverse Temporal Gyrus,AAL
+ST123TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST129TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Insular Cortex,Insula_L,Insula,AAL
+ST130TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Insular Cortex,Insula_R,Insula,AAL
+ST13TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST14TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Cingulate Gyrus, anterior division",Cingulum_Ant_L,Anterior Cingulate,AAL
+ST15TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Middle Frontal Gyrus,Frontal_Mid_L,Middle Frontal Gyrus,AAL
+ST22TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,Corpus Callosum,Talairach
+ST23TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Cuneal Cortex,Cuneus_L,Cuneus,AAL
+ST24TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,Brodmann area 28,Talairach
+ST25TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Frontal Pole,Temporal_Pole_Sup_L,Brodmann area 10,AAL
+ST26TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Temporal Fusiform Cortex, anterior division+Left Temporal Fusiform Cortex, posterior division",Fusiform_L,Fusiform Gyrus,AAL
+ST31TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Parietal_Inf_L,Inferior Parietal Lobule,AAL
+ST32TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Inferior Temporal Gyrus, temporooccipital part+Left Inferior Temporal Gyrus, anterior division+Left Inferior Temporal Gyrus, posterior division",Temporal_Inf_L,Inferior Temporal Gyrus,AAL
+ST34TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Cingulate Gyrus, anterior division+Left Cingulate Gyrus, posterior division",nan,Brodmann area 29,Talairach
+ST35TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Lateral Occipital Cortex, superior division+Left Lateral Occipital Cortex, anterior division",Occipital_Mid_L,Occipital Lobe,AAL
+ST36TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Frontal Orbital Cortex,Frontal_Mid_Orb_L,Orbital Gyrus,AAL
+ST38TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Lingual Gyrus,Lingual_L,Lingual Gyrus,AAL
+ST39TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Frontal_Med_Orb_L,Orbital Gyrus,AAL
+ST40TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Middle Temporal Gyrus, superior division+Left Middle Temporal Gyrus, anterior division",Temporal_Mid_L,Middle Temporal Gyrus,AAL
+ST43TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Paracentral_Lobule_L,Paracentral Lobule,AAL
+ST44TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Parahippocampal Gyrus, superior division+Left Parahippocampal Gyrus, anterior division",ParaHippocampal_L,Parahippocampal Gyrus,AAL
+ST45TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Inferior Frontal Gyrus, pars opercularis",Frontal_Inf_Oper_L,Brodmann area 44,AAL
+ST46TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Frontal_Inf_Orb_L,Brodmann area 47,AAL
+ST47TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Inferior Frontal Gyrus, pars triangularis",Frontal_Inf_Tri_L,Brodmann area 45,AAL
+ST48TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST49TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Postcentral Gyrus,Postcentral_L,Postcentral Gyrus,AAL
+ST50TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Cingulate Gyrus, posterior division",Cingulum_Post_L,Posterior Cingulate,AAL
+ST51TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Precentral Gyrus,Precentral_L,Precentral Gyrus,AAL
+ST52TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Precuneous Cortex,Precuneus_L,Precuneus,AAL
+ST54TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Cingulate Gyrus, anterior division",Cingulum_Ant_L,Anterior Cingulate,AAL
+ST55TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Middle Frontal Gyrus,Frontal_Mid_L,Middle Frontal Gyrus,AAL
+ST56TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Superior Frontal Gyrus,Frontal_Sup_L,Superior Frontal Gyrus,AAL
+ST57TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Superior Parietal Lobule,Parietal_Sup_L,Superior Parietal Lobule,AAL
+ST58TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Superior Temporal Gyrus, anterior division+Left Superior Temporal Gyrus, posterior division",Temporal_Sup_L,Superior Temporal Gyrus,AAL
+ST59TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Left Supramarginal Gyrus, anterior division+Left Supramarginal Gyrus, posterior division",SupraMarginal_L,Supramarginal Gyrus,AAL
+ST60TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Left Temporal Pole,Temporal_Pole_Mid_L,Brodmann area 38,Talairach
+ST62TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,Brodmann area 41+Brodmann area 42,Talairach
+ST64TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST72TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,nan,UNDETERMINED
+ST73TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Cingulate Gyrus, anterior division",Cingulum_Ant_R,Anterior Cingulate,AAL
+ST74TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Middle Frontal Gyrus,Frontal_Mid_R,Middle Frontal,AAL
+ST81TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,Corpus Callosum,Talairach
+ST82TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Cuneal Cortex,Cuneus_R,Cuneus,AAL
+ST83TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,nan,Brodmann area 28,Talairach
+ST84TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Frontal Pole,nan,Brodmann area 10,Talairach
+ST85TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Occipital Fusiform Gyrus,Fusiform_R,Brodmann area 37,AAL
+ST90TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,nan,Parietal_Inf_R,Inferior Parietal Lobule,AAL
+ST91TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Inferior Temporal Gyrus, temporooccipital part",Temporal_Inf_R,Inferior Temporal Gyrus,AAL
+ST93TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Cingulate Gyrus, anterior division+Right Cingulate Gyrus, posterior division",nan,Brodmann area 29,Talairach
+ST94TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Lateral Occipital Cortex, superior division+Right Lateral Occipital Cortex, inferior division",Occipital_Mid_R,Middle Occipital Gyrus,AAL
+ST95TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Frontal Orbital Cortex,Frontal_Mid_Orb_R,Orbital Gyrus,AAL
+ST97TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Lingual Gyrus,Lingual_R,Lingual Gyrus,AAL
+ST98TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,Right Frontal Orbital Cortex,Frontal_Med_Orb_R,Orbital Gyrus,AAL
+ST99TS_UCSFFSL_02_01_16_UCSFFSL51ALL_08_01_16,"Right Middle Temporal Gyrus, anterior division+Right Middle Temporal Gyrus, posterior division+Right Middle Temporal Gyrus, temporooccipital part",Temporal_Mid_R,Middle Temporal Gyrus,AAL

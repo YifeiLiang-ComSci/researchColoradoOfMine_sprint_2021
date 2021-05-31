@@ -1,0 +1,11 @@
+	============================SAE_0============================
+	==============split: 0==============
+	Accuracy: 0.7472527472527473,
+	Precision: {0: 0.7472527472527473, 1: nan},
+	Recall: {0: 1.0, 1: 0.0}
+{0: {0: 68, 1: 0}, 1: {0: 23, 1: 0}}
+	accuracy. mean: 0.7473, std: 0.0, scores: [0.7472527472527473]
+	precision_0. mean: 0.7473, std: 0.0, scores: [0.7472527472527473]
+	precision_1. mean: nan, std: nan, scores: [nan]
+	recall_0. mean: 1.0, std: 0.0, scores: [1.0]
+	recall_1. mean: 0.0, std: 0.0, scores: [0.0]

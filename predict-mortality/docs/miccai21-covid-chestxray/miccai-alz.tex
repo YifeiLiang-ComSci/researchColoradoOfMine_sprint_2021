@@ -1,0 +1,65 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\usepackage{amsmath}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+
+\newcommand{\hdrule}{\midrule[\heavyrulewidth]}
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}}
+
+\begin{document}
+%
+\title{Semi-supervised Enrichment Learning to Integrate Dynamic-Static data for Improved Mortality Prediction on COVID-19 Patients}
+% \author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+% Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+% Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+%
+% \authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+% \institute{Princeton University, Princeton NJ 08544, USA \and
+% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+% \email{lncs@springer.com}\\
+% \url{http://www.springer.com/gp/computer-science/lncs} \and
+% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+% \email{\{abc,lncs\}@uni-heidelberg.de}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+% covid-19의 대유행은 의료체계에 큰 부담을 가하고 있습니다. 의료 자원의 효율적인 배분을 위해, covid-19 환자의 중증도를 예측하려는 연구가 있어왔습니다. Because chest X-ray (CXR) imagings have been collected over time to observe changes in the lungs caused by covid-19, 이러한 longitudinal imagings을 자동 분석하여 환자의 중증도를 예측하는 model은 의료진들의 부담을 덜어줄 수 있습니다. 하지만 촬영된 imagings의 수가 환자마다 다르기 때문에, 이러한 longitudinal data를 static data와 통합하여 중증도를 예측하는 것은 challenging합니다. 이러한 어려움을 극복하기 위해, 우리는 semi-supervised representation learning model to transform the longitudinal imagings into fixed length vector which can be readily integrated with the static data. Armed with the enriched representation from static/dynamic data and their available labels, one can fully utilize the CXR imagings to predict the severity of COVID-19 patients. 
+hi
+
+\keywords{First keyword  \and Second keyword \and Another keyword.}
+\end{abstract}
+
+% Manuscripts should be up to 8-pages (text, figures and tables) plus up to 2 pages of references.
+
+\input{sections/introduction.tex}
+\input{sections/method.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{biblio}
+%
+\end{document}

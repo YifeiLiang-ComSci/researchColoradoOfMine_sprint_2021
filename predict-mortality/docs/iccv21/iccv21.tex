@@ -1,0 +1,51 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{iccv}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+% \iccvfinalcopy % *** Uncomment this line for the final submission
+
+\def\iccvPaperID{****} % *** Enter the ICCV Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ificcvfinal\pagestyle{empty}\fi
+
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Representation Learning to Integrate Dynamic and Static Data for Improved Prediction on COVID-19 Patients Mortality}
+
+\author{}
+
+\maketitle
+% Remove page # from the first page of camera-ready.
+\ificcvfinal\thispagestyle{empty}\fi
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+   Seasonal influxes of COVID-19 infections put pressure on healthcare systems and make the allocation of limited resources and treatments extremely difficult. Because clinical measurements of COVID-19 patients can be collected over time, several longitudinal deep learning models have been proposed to predict clinical outcomes and aid in logistical decision making. These models often fail, however, to effectively handle missing data or integrate static data with the multivariate time series (MTS).We propose a novel semi-supervised learning framework that leverages Long Short-Term Memory (LSTM) to learn the vectorial representation of MTS which can be easily integrated with the static data. Using this representation, learned from both labeled and unlabeled samples, one can fully utilize the information in the MTS dataset. Experimental results utilizing chest X-ray images show that the proposed model significantly improves mortality classification compared to supervised models.
+\end{abstract}
+
+\input{sections/introduction.tex}
+\input{sections/methods.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+
+{\small
+\bibliographystyle{ieee_fullname}
+\bibliography{bibliography}
+}
+
+\end{document}

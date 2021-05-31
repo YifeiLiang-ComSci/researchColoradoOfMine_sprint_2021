@@ -1,0 +1,131 @@
+Description,Harvard-Oxford,AAL,Talairach,Atlas
+Right Non WM Hypo Intensities,,,,UNDETERMINED
+Right Pallidum,,Pallidum_R,Lateral Globus Pallidus+Medial Globus Pallidus,AAL
+Right Paracentral,,Paracentral_Lobule_R,Paracentral Lobule,AAL
+Right Parahippocampal,,ParaHippocampal_R,Parahippocampal Gyrus,AAL
+Right Pars Opercularis,,Frontal_Inf_Oper_R,Inferior Frontal Gyrus,AAL
+Right Pars Orbitalis,,Frontal_Inf_Orb_R,Inferior Frontal Gyrus,AAL
+Right Pars Triangularis,,Frontal_Inf_Tri_R,Inferior Frontal Gyrus,AAL
+Right Pericalcarine,,,,UNDETERMINED
+Right Postcentral,,Postcentral_R,Postcentral Gyrus,AAL
+Right Posterior Cingulate,"Right Cingulate Gyrus, posterior division",Cingulum_Post_R,Posterior Cingulate,AAL
+Icv,,,,UNDETERMINED
+Right Precentral,,Precentral_R,Precentral Gyrus,AAL
+Right Precuneus,,Precuneus_R,Precuneus,AAL
+Right Putamen,,Putamen_R,Putamen,AAL
+Right Rostral Anterior Cingulate,"Right Cingulate Gyrus, anterior division",Cingulum_Ant_R,,AAL
+Right Rostral Middle Frontal,Right Middle Frontal Gyrus,,Brodmann area 46,Talairach
+Right Superior Frontal,Right Superior Frontal Gyrus,Frontal_Sup_R,Superior Frontal Gyrus,AAL
+Right Superior Parietal,Right Superior Parietal Lobule,Parietal_Sup_R,Superior Parietal Lobule,AAL
+Right Superior Temporal,"Right Superior Temporal Gyrus, anterior division+Right Superior Temporal Gyrus, posterior division",Temporal_Sup_R,Superior Temporal Gyrus,AAL
+Right Supramarginal,"Right Supramarginal Gyrus, anterior division+Right Supramarginal Gyrus, posterior division",SupraMarginal_R,Supramarginal Gyrus,AAL
+Right Temporal Pole,Right Temporal Pole,Temporal_Pole_Mid_R,Brodmann area 38,Talairach
+Left Accumbens Area,,,Hypothalamus,Talairach
+Right Thalamus,,Thalamus_R,Thalamus,AAL
+Right Transverse Temporal,"Right Middle Temporal Gyrus, anterior division",Temporal_Mid_R,Transverse Temporal Gyrus,AAL
+Right Undetermined,,,,UNDETERMINED
+Right Unknown,,,,UNDETERMINED
+Right Ventral DC,,,,UNDETERMINED
+Right Vessel,,,,UNDETERMINED
+Right WM Hypo Intensities,,,,UNDETERMINED
+Third Ventricle,,,Third Ventricle,Talairach
+WM Hypo Intensities,,,,UNDETERMINED
+Left Insula,Left Insular Cortex,Insula_L,Insula,AAL
+Left Amygdala,,Amygdala_L,Amygdala,AAL
+Right Insula,Right Insular Cortex,Insula_R,Insula,AAL
+Left Bankssts,,,,UNDETERMINED
+Left Caudal Anterior Cingulate,"Left Cingulate Gyrus, anterior division",Cingulum_Ant_L,Anterior Cingulate,AAL
+Left Caudal Middle Frontal,Left Middle Frontal Gyrus,Frontal_Mid_L,Middle Frontal Gyrus,AAL
+Left Caudate,,Caudate_L,Caudate,AAL
+Left Cerebellum Cortex,,,Left Cerebellum,Talairach
+Left Cerebellum WM,,,Left Cerebellum,Talairach
+Left Cerebral Cortex,,,,UNDETERMINED
+Brainstem,,,Left Brainstem+Right Brainstem,Talairach
+Left Cerebral WM,,,,UNDETERMINED
+Left Choroid Plexus,,,,UNDETERMINED
+Left Corpus Callosum,,,Corpus Callosum,Talairach
+Left Cuneus,Left Cuneal Cortex,Cuneus_L,Cuneus,AAL
+Left Entorhinal,,,Brodmann area 28,Talairach
+Left Frontal Pole,Left Frontal Pole,Temporal_Pole_Sup_L,Brodmann area 10,AAL
+Left Fusiform,"Left Temporal Fusiform Cortex, anterior division+Left Temporal Fusiform Cortex, posterior division",Fusiform_L,Fusiform Gyrus,AAL
+Left Hemisphere,,,,UNDETERMINED
+Left Hemisphere WM,,,,UNDETERMINED
+Left Hippocampus,,Hippocampus_L,Hippocampus,AAL
+Corpus Callosum Anterior,,,Corpus Callosum,Talairach
+Left Inferior Lateral Ventricle,,,Lateral Ventricle,Talairach
+Left Inferior Parietal,,Parietal_Inf_L,Inferior Parietal Lobule,AAL
+Left Inferior Temporal,"Left Inferior Temporal Gyrus, temporooccipital part+Left Inferior Temporal Gyrus, anterior division+Left Inferior Temporal Gyrus, posterior division",Temporal_Inf_L,Inferior Temporal Gyrus,AAL
+Left Interior,,,,UNDETERMINED
+Left Isthmus Cingulate,"Left Cingulate Gyrus, anterior division+Left Cingulate Gyrus, posterior division",,Brodmann area 29,Talairach
+Left Lateral Occipital,"Left Lateral Occipital Cortex, superior division+Left Lateral Occipital Cortex, anterior division",Occipital_Mid_L,Occipital Lobe,AAL
+Left Lateral Orbitofrontal,Left Frontal Orbital Cortex,Frontal_Mid_Orb_L,Orbital Gyrus,AAL
+Left Lateral Ventricle,,,Lateral Ventricle,Talairach
+Left Lingual,Left Lingual Gyrus,Lingual_L,Lingual Gyrus,AAL
+Left Medial Orbitofrontal,,Frontal_Med_Orb_L,Orbital Gyrus,AAL
+Corpus Callosum Central,,,Corpus Callosum,Talairach
+Left Middle Temporal,"Left Middle Temporal Gyrus, superior division+Left Middle Temporal Gyrus, anterior division",Temporal_Mid_L,Middle Temporal Gyrus,AAL
+Left Non WM Hypo Intensities,,,,UNDETERMINED
+Left Pallidum,,Pallidum_L,Lateral Globus Pallidus+Medial Globus Pallidus,AAL
+Left Paracentral,,Paracentral_Lobule_L,Paracentral Lobule,AAL
+Left Parahippocampal,"Left Parahippocampal Gyrus, superior division+Left Parahippocampal Gyrus, anterior division",ParaHippocampal_L,Parahippocampal Gyrus,AAL
+Left Pars Opercularis,"Left Inferior Frontal Gyrus, pars opercularis",Frontal_Inf_Oper_L,Brodmann area 44,AAL
+Left Pars Orbitalis,,Frontal_Inf_Orb_L,Brodmann area 47,AAL
+Left Pars Triangularis,"Left Inferior Frontal Gyrus, pars triangularis",Frontal_Inf_Tri_L,Brodmann area 45,AAL
+Left Pericalcarine,,,,UNDETERMINED
+Left Postcentral,Left Postcentral Gyrus,Postcentral_L,Postcentral Gyrus,AAL
+Corpus Callosum Mid Anterior,,,Corpus Callosum,Talairach
+Left Posterior Cingulate,"Left Cingulate Gyrus, posterior division",Cingulum_Post_L,Posterior Cingulate,AAL
+Left Precentral,Left Precentral Gyrus,Precentral_L,Precentral Gyrus,AAL
+Left Precuneus,Left Precuneous Cortex,Precuneus_L,Precuneus,AAL
+Left Putamen,,Putamen_L,Putamen,AAL
+Left Rostral Anterior Cingulate,"Left Cingulate Gyrus, anterior division",Cingulum_Ant_L,Anterior Cingulate,AAL
+Left Rostral Middle Frontal,Left Middle Frontal Gyrus,Frontal_Mid_L,Middle Frontal Gyrus,AAL
+Left Superior Frontal,Left Superior Frontal Gyrus,Frontal_Sup_L,Superior Frontal Gyrus,AAL
+Left Superior Parietal,Left Superior Parietal Lobule,Parietal_Sup_L,Superior Parietal Lobule,AAL
+Left Superior Temporal,"Left Superior Temporal Gyrus, anterior division+Left Superior Temporal Gyrus, posterior division",Temporal_Sup_L,Superior Temporal Gyrus,AAL
+Left Supramarginal,"Left Supramarginal Gyrus, anterior division+Left Supramarginal Gyrus, posterior division",SupraMarginal_L,Supramarginal Gyrus,AAL
+Corpus Callosum Mid Posterior,,,Corpus Callosum,Talairach
+Left Temporal Pole,Left Temporal Pole,Temporal_Pole_Mid_L,Brodmann area 38,Talairach
+Left Thalamus,,Thalamus_L,Thalamus,AAL
+Left Transverse Temporal,,,Brodmann area 41+Brodmann area 42,Talairach
+Left Undetermined,,,,UNDETERMINED
+Left Unknown,,,,UNDETERMINED
+Left Ventral DC,,,,UNDETERMINED
+Left Vessel,,,,UNDETERMINED
+Left WM Hypo Intensities,,,,UNDETERMINED
+Non WM Hypo Intensities,,,,UNDETERMINED
+Optic Chiasm,,,Optic Tract,Talairach
+Corpus Callosum Posterior,,,Corpus Callosum,Talairach
+Right Accumbens Area,,,,UNDETERMINED
+Right Amygdala,,Amygdala_R,Amygdala,AAL
+Right Bankssts,,,,UNDETERMINED
+Right Caudal Anterior Cingulate,"Right Cingulate Gyrus, anterior division",Cingulum_Ant_R,Anterior Cingulate,AAL
+Right Caudal Middle Frontal,Right Middle Frontal Gyrus,Frontal_Mid_R,Middle Frontal,AAL
+Right Caudate,,Caudate_R,Caudate,AAL
+Right Cerebellum Cortex,,,Right Cerebellum,Talairach
+Right Cerebellum WM,,,Right Cerebellum,Talairach
+Right Cerebral Cortex,,,,UNDETERMINED
+Right Cerebral WM,,,,UNDETERMINED
+Csf,,,,UNDETERMINED
+Right Choroid Plexus,,,,UNDETERMINED
+Right Corpus Callosum,,,Corpus Callosum,Talairach
+Right Cuneus,Right Cuneal Cortex,Cuneus_R,Cuneus,AAL
+Right Entorhinal,,,Brodmann area 28,Talairach
+Right Frontal Pole,Right Frontal Pole,,Brodmann area 10,Talairach
+Right Fusiform,Right Occipital Fusiform Gyrus,Fusiform_R,Brodmann area 37,AAL
+Right Hemisphere,,,,UNDETERMINED
+Right Hemisphere WM,,,,UNDETERMINED
+Right Hippocampus,,Hippocampus_R,Hippocampus,AAL
+Right Inferior Lateral Ventricle,,,Lateral Ventricle,Talairach
+Fifth Ventricle,,,,UNDETERMINED
+Right Inferior Parietal,,Parietal_Inf_R,Inferior Parietal Lobule,AAL
+Right Inferior Temporal,"Right Inferior Temporal Gyrus, temporooccipital part",Temporal_Inf_R,Inferior Temporal Gyrus,AAL
+Right Interior,,,,UNDETERMINED
+Right Isthmus Cingulate,"Right Cingulate Gyrus, anterior division+Right Cingulate Gyrus, posterior division",,Brodmann area 29,Talairach
+Right Lateral Occipital,"Right Lateral Occipital Cortex, superior division+Right Lateral Occipital Cortex, inferior division",Occipital_Mid_R,Middle Occipital Gyrus,AAL
+Right Lateral Orbitofrontal,Right Frontal Orbital Cortex,Frontal_Mid_Orb_R,Orbital Gyrus,AAL
+Right Lateral Ventricle,,,Lateral Ventricle,Talairach
+Right Lingual,Right Lingual Gyrus,Lingual_R,Lingual Gyrus,AAL
+Right Medial Orbitofrontal,Right Frontal Orbital Cortex,Frontal_Med_Orb_R,Orbital Gyrus,AAL
+Right Middle Temporal,"Right Middle Temporal Gyrus, anterior division+Right Middle Temporal Gyrus, posterior division+Right Middle Temporal Gyrus, temporooccipital part",Temporal_Mid_R,Middle Temporal Gyrus,AAL
+Fourth Ventricle,,,Fourth Ventricle,Talairach

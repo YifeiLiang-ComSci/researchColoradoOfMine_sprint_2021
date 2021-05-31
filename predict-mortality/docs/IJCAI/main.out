@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Methods}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Dataset}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Notations}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Encoder}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Decoder and Predictor}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Loss Functions}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Experiment}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Hyperparameters and Competing Models}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Classification Performance}{section.3}% 10
+\BOOKMARK [3][-]{section*.5}{Classification Performance with Subset of Biomarkers}{subsection.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Biomarkers Identification}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 13

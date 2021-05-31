@@ -1,0 +1,46 @@
+\section{Introduction}
+Conventional classification methods in longitudinal analysis require sequences
+to be of uniform length~\cite{lu2018predicting} and without any missing
+records. This is rarely the case in data collected in the field and especially
+rare for data collected in the health care industry. In this section we explore
+one such dataset, and the difficulties it poses to existing classification
+methods, to discuss the merit of our proposed architecture.
+
+We consider a dataset of 375 samples, compiled from periodic blood-draws from
+COVID-19-positive patients during their stay at Tongji Hospital in China.
+These samples were collected during an outbreak of a pandemic, a time when
+hospitals function out of regular routine and blood draws are not necessarily
+performed for a controlled study. As a result, the number of blood draws is
+different for every patient and time intervals between samples are also often
+irregular. The data for this specific dataset was also conducted using CRFs
+(case report forms), or surveys filled out by individuals rather than being
+transcribed directly from a test result. The resultant inputs are uneven
+sequences of vectors with missing information that introduce several new
+difficulties, particularly when the missing information includes patient
+outcome, the target variable for any predictive model. 
+
+One might suggest imputation as a possible solution to the missing data
+problem. Modern imputation methods rely on a framework of generative
+adversarial networks (GANs)~\cite{yoon2018gain} to successfully impute sizeable
+portions of high-dimensional data. Although they are efficient, even
+state-of-the-art techniques assume records to be missing-at-random, an
+assumption that risks introducing unintended bias into a model. Alternatively,
+we could designate missing values with a recurring value, such as 0, and
+implement a model architecture that effectively ignores signal noise.
+Autoencoder is one such architecture that is frequently used to encode
+sequences, typically in a lower dimension, and could be used to learn temporal
+features from data. In longitudinal analysis, however, autoencoders assume an
+underlying time function, implied by uniform time intervals between records,
+that allows for unsupervised
+learning~\cite{langkvist2014review,srivastava2015unsupervised}. This assumption
+of a time function provides a powerful advantage to autoencoders, but also
+makes it impossible to learn from data that contains uneven
+sequences~\cite{yu2013embedding}, as might result from different patients
+receiving a different number of blood draws during their stay at a hospital. 
+
+We propose a semi-supervised Autoencoder (AE) enrichment method to encode a
+given sample's longitudinal information into a single fixed-length vector. For
+every sample, we create a LSTM cell consisting of a series of interconnected
+encoder-decoder pairs, one for each time stamp in the sample. The result is a
+fixed-length encoded vector, which can be fed into a predictor that learns such
+encodings. 

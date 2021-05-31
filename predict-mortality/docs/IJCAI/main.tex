@@ -1,0 +1,136 @@
+%%%% ijcai21.tex
+
+\typeout{IJCAI--21 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-21.
+
+\documentclass{article}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+% The file ijcai21.sty is NOT the same than previous years'
+\usepackage{ijcai21}
+
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{soul}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[small]{caption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\urlstyle{same}
+
+% the following package is optional:
+%\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{makecell}
+
+% See https://www.overleaf.com/learn/latex/theorems_and_proofs
+% for a nice explanation of how to define new theorems, but keep
+% in mind that the amsthm package is already included in this
+% template and that you must *not* alter the styling.
+\newtheorem{example}{Example}
+\newtheorem{theorem}{Theorem}
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+%PDF Info Is REQUIRED.
+\pdfinfo{
+/TemplateVersion (IJCAI.2021.0)
+}
+
+\title{Learning Deeply Enriched Representations of Temporal Data of COVID-19 Patients for Improved Mortality Prediction}
+
+% Single author syntax
+\author{
+    Anonymous Authors
+}
+
+% Multiple author syntax (remove the single-author syntax above and the \iffalse ... \fi here)
+% Check the ijcai21-multiauthor.tex file for detailed instructions
+\iffalse
+\author{
+First Author$^1$
+\and
+Second Author$^2$\and
+Third Author$^{2,3}$\And
+Fourth Author$^4$
+\affiliations
+$^1$First Affiliation\\
+$^2$Second Affiliation\\
+$^3$Third Affiliation\\
+$^4$Fourth Affiliation
+\emails
+\{first, second\}@example.com,
+third@other.example.com,
+fourth@example.com
+}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    \iffalse
+    Learning compressed representations of multivariate time series (MTS) facilitates data analysis in the presence of noise and redundant information, and for a large number of variates and time steps. However, classical dimensionality reduction approaches are designed for vectorial data and cannot deal explicitly with missing values. In this work, we propose a novel autoencoder architecture based on recurrent neural networks to generate compressed representations of MTS.
+    
+    Although semi-supervised variational autoencoder (SemiVAE) works in image classiﬁcation task, it fails in text classiﬁcation task if using vanilla LSTM as its decoder. From a perspective of reinforcement learning, it is veriﬁed that the decoder’s capability to distinguish between different categorical labels is essential. Therefore, Semi-supervised Sequential Variational Autoencoder (SSVAE) is proposed, which increases the capability by feeding label into its decoder RNN at each time-step. Two speciﬁc decoder structures are investigated and both of them are veriﬁed to be effective.
+    \fi
+    % The abstract should briefly summarize the contents of the paper in 15--250 words. 
+    An influx of Coronavirus Disease 19 (COVID-19) infections puts pressure on healthcare systems and disrupts their general care routine, and efficient allocation of finite resources becomes a crucial problem. To aid logistical decision-making, we propose a novel semi-supervised learning framework to predict clinical outcomes of COVID-19 patients. Because the clinical measurements of COVID-19 patients can be collected over time, our model aims to predict the clinical outcomes from the multivariate time series (MTS) which may contain missing data. We leverage Long Short Term Memory (LSTM) architecture to learn the vectorial representation of MTS with missing data and uneven time intervals between records. Armed with the vectorial representation of MTS, conventional machine learning models can be used to predict the clinical outcomes. In our experiments, the proposed model predicts mortality of COVID-19 patient with the blood samples collected from the 358 patients infected with COVID-19 in Wuhan, China. Our embedding framework shows 88\% to 94\% prediction accuracy, even if very few samples are labeled. In addition, we identify the mortality relevant biomarkers from the proposed method.\footnote{The codes used in our experiments will be made publicly accessible on GitHub upon paper acceptance.}
+    %% begin-IB
+    % An influx of COVID-19 infections puts pressure on healthcare systems and
+    % disrupts their general care routine, leading to an increase in excess
+    % deaths. Efficient allocation of finite resources, is a persistent problem
+    % most apparent during a sudden influx of patients. Earlier studies have
+    % suggested the use of biomarkers, particularly those measured in blood
+    % samples, to build mortality-prediction models to aid in logistical
+    % decision-making. These same studies focused on isolating predictive
+    % biomarkers rather than building a deterministic model. This paper uses
+    % longitudinal data collected from blood samples of 375 patients infected
+    % with COVID-19 in Wuhan, China, to produce a general predictive
+    % mortality-prediction models. We propose an embedding framework that
+    % summarizes sparse time series measurements into a single fixed-length
+    % vector by combining locality preserving projections and deep learning.
+    % Models equipped with this new framework promise significantly higher
+    % prediction accuracy in addition to training on less data.
+    %% end-IB
+\end{abstract}
+% The abstract should be no more than 200 words long.
+
+% Paper length: Papers must be no longer than 7 pages in total: 6 pages for the body of the paper (including all figures/tables), plus up to 1 additional page with references that do not fit within the six body pages. All paper {\em submissions} must have a maximum of six pages, plus at most one for references. The seventh page cannot contain {\bf anything} other than references.
+\input{sections/introduction.tex}
+\input{sections/methods.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+
+%% The file named.bst is a bibliography style file for BibTeX 0.99c
+\bibliographystyle{named}
+\bibliography{bibliography}
+
+\end{document}
+

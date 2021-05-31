@@ -1,0 +1,142 @@
+	Note: 
+{'np': 2, 'tf': 4}
+	=================== Dataset ===================
+{
+	'this_dataset_is_splitted': True,
+	'init_number_for_unobserved_entry': -10.0,
+	'ID': 1614436352.241267,
+	'dataset_kind': 'chestxray',
+	'path_to_dataset': '/Users/yifeiliang/Downloads/covid-chestxray-dataset',
+	'dataframe_raw': Non-printable,
+	'dataframe': Non-printable,
+	'prediction_label_mapping': Non-printable,
+	'num_patients': 455,
+	'train_proportion': 0.8,
+	'k_fold': 4,
+	'whether_training_is_large': True
+}
+	============================SAE_0============================
+{
+	'model_class': <class 'autoencoder.Autoencoder'>,
+	'init': {
+		'debug': 1,
+		'verbose': 1,
+		'whether_use_mask': True
+	},
+	'fit': {
+		'iters': 50,
+		'factors_dict': {
+			'dynamic reconstruction loss': 0.005,
+			'static reconstruction loss': 0.0,
+			'prediction': +++!< 10.0 >!+++
+		},
+		'optimizer': <tensorflow.python.keras.optimizer_v2.adam.Adam object at 0x1730b67f0>,
+		'loss_kind_dict': {
+			'dynamic reconstruction loss': 2.0,
+			'static reconstruction loss': 2.0,
+			'prediction': 2.0
+		},
+		'predictor_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 60,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 30,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 10,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			None,
+			[
+				'Dense',
+				{
+					'units': 2,
+					'activation': 'sigmoid',
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'dynamic_decoder_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 100,
+					'activation': <function <lambda> at 0x172bcfd90>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 70,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 50,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 14,
+					'activation': <function tanh at 0x144bd1ae8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'model_name_RNN': 'LSTM',
+		'kwargs_RNN': {
+			'units': 90,
+			'activity_regularizer': None,
+			'bias_regularizer': None,
+			'dropout': 0.0,
+			'recurrent_dropout': 0.0,
+			'activation': 'tanh'
+		},
+		'static_encoder_decoder_structure_dict': None
+	},
+	'predict': {
+		'perturbation_info_for_feature_importance': {
+			'center': 0.0,
+			'proportion': 0.1
+		},
+		'swap_info_for_feature_importance': {
+			'proportion': 0.7
+		},
+		'feature_importance_calculate_prob_dict': {
+			'dynamic': 0.1,
+			'static': 0.1
+		}
+	},
+	'fit_on': 'both',
+	'name': 'SAE_0'
+}

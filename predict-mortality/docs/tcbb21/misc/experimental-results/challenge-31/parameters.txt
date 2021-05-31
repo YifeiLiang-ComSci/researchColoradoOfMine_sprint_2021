@@ -1,0 +1,376 @@
+	Note: 
+{'np': 2, 'tf': 4}
+	=================== Dataset ===================
+{
+	'this_dataset_is_splitted': True,
+	'shape_2D_records': Non-printable,
+	'init_number_for_unobserved_entry': 0.0,
+	'ID': 1616936068.629847,
+	'dataset_kind': 'challenge',
+	'path_to_dataset': './inputs/physionet-challenge',
+	'dataframe_static': Non-printable,
+	'dataframe_dynamic': Non-printable,
+	'prediction_label_mapping': Non-printable,
+	'num_patients': 3997,
+	'train_proportion': 0.8,
+	'k_fold': 5,
+	'whether_training_is_large': True
+}
+	============================SAE-SVM============================
+{
+	'model_class': <class 'autoencoder.Autoencoder'>,
+	'init': {
+		'debug': 1,
+		'verbose': 1,
+		'whether_use_mask': True
+	},
+	'fit': {
+		'iters': 30,
+		'factors_dict': {
+			'dynamic vectors reconstruction loss': 5e-07,
+			'static reconstruction loss': 0.0,
+			'prediction': 10.0
+		},
+		'optimizer': <tensorflow.python.keras.optimizer_v2.adamax.Adamax object at 0x1b9c11f60>,
+		'loss_kind_dict': {
+			'dynamic vectors reconstruction loss': 2.0,
+			'static reconstruction loss': 2.0,
+			'prediction': 'SquaredHinge'
+		},
+		'predictor_structure_list': [
+			[
+				'RandomFourierFeatures',
+				{
+					'output_dim': 400,
+					'scale': 10.0,
+					'kernel_initializer': 'gaussian'
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 2,
+					'activation': 'linear',
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'dynamic_vectors_decoder_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 21,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 15,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 37,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'model_name_RNN_vectors': 'GRU',
+		'kwargs_RNN_vectors': {
+			'units': 30,
+			'activity_regularizer': None,
+			'bias_regularizer': None,
+			'dropout': 0.0,
+			'recurrent_dropout': 0.0
+		},
+		'static_encoder_decoder_structure_dict': None,
+		'loss_factor_funct': <function <lambda> at 0x1b9c10598>
+	},
+	'predict': {
+		'perturbation_info_for_feature_importance': {
+			'center': 0.0,
+			'proportion': 0.1
+		},
+		'swap_info_for_feature_importance': {
+			'proportion': 0.7
+		},
+		'feature_importance_calculate_prob_dict': {
+			'dynamic': 0.5,
+			'static': 1.0
+		}
+	},
+	'fit_on': 'both',
+	'name': 'SAE-SVM'
+}
+	============================SAE-FCL============================
+{
+	'model_class': <class 'autoencoder.Autoencoder'>,
+	'init': {
+		'debug': 1,
+		'verbose': 1,
+		'whether_use_mask': True
+	},
+	'fit': {
+		'iters': 30,
+		'factors_dict': {
+			'dynamic vectors reconstruction loss': 5e-07,
+			'static reconstruction loss': 0.0,
+			'prediction': 10.0
+		},
+		'optimizer': <tensorflow.python.keras.optimizer_v2.adamax.Adamax object at 0x1b9c18588>,
+		'loss_kind_dict': {
+			'dynamic vectors reconstruction loss': 2.0,
+			'static reconstruction loss': 2.0,
+			'prediction': 2.0
+		},
+		'predictor_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 9,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 3,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			None,
+			[
+				'Dense',
+				{
+					'units': 2,
+					'activation': 'softmax',
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'dynamic_vectors_decoder_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 21,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 15,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 37,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'model_name_RNN_vectors': 'GRU',
+		'kwargs_RNN_vectors': {
+			'units': 30,
+			'activity_regularizer': None,
+			'bias_regularizer': None,
+			'dropout': 0.0,
+			'recurrent_dropout': 0.0
+		},
+		'static_encoder_decoder_structure_dict': None,
+		'loss_factor_funct': <function <lambda> at 0x1b9c107b8>
+	},
+	'predict': {
+		'perturbation_info_for_feature_importance': {
+			'center': 0.0,
+			'proportion': 0.1
+		},
+		'swap_info_for_feature_importance': {
+			'proportion': 0.7
+		},
+		'feature_importance_calculate_prob_dict': {
+			'dynamic': 0.5,
+			'static': 1.0
+		}
+	},
+	'fit_on': 'both',
+	'name': 'SAE-FCL'
+}
+	============================BLSTM============================
+{
+	'model_class': <class 'autoencoder.Autoencoder'>,
+	'init': {
+		'debug': 1,
+		'verbose': 1,
+		'whether_use_mask': True
+	},
+	'fit': {
+		'iters': 12,
+		'factors_dict': {
+			'dynamic vectors reconstruction loss': 0.0,
+			'static reconstruction loss': 0.0,
+			'prediction': 10.0
+		},
+		'optimizer': <tensorflow.python.keras.optimizer_v2.adamax.Adamax object at 0x1b9c18278>,
+		'loss_kind_dict': {
+			'dynamic vectors reconstruction loss': 2.0,
+			'static reconstruction loss': 2.0,
+			'prediction': 2.0
+		},
+		'predictor_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 9,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 3,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			None,
+			[
+				'Dense',
+				{
+					'units': 2,
+					'activation': 'softmax',
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'dynamic_vectors_decoder_structure_list': [
+			[
+				'Dense',
+				{
+					'units': 21,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 15,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			],
+			[
+				'Dense',
+				{
+					'units': 37,
+					'activation': <function <lambda> at 0x10fc7b6a8>,
+					'activity_regularizer': None,
+					'bias_regularizer': None
+				}
+			]
+		],
+		'model_name_RNN_vectors': 'GRU',
+		'kwargs_RNN_vectors': {
+			'units': 30,
+			'activity_regularizer': None,
+			'bias_regularizer': None,
+			'dropout': 0.0,
+			'recurrent_dropout': 0.0
+		},
+		'static_encoder_decoder_structure_dict': None,
+		'loss_factor_funct': <function <lambda> at 0x1b9c109d8>
+	},
+	'predict': {
+		'perturbation_info_for_feature_importance': {
+			'center': 0.0,
+			'proportion': 0.1
+		},
+		'swap_info_for_feature_importance': {
+			'proportion': 0.7
+		},
+		'feature_importance_calculate_prob_dict': {
+			'dynamic': 0.5,
+			'static': 1.0
+		}
+	},
+	'fit_on': 'train',
+	'name': 'BLSTM'
+}
+	============================RC============================
+{
+	'model_class': <class 'estimator.RidgeClassifier'>,
+	'init': {
+	},
+	'fit': {
+	},
+	'predict': {
+	},
+	'fit_on': 'train',
+	'name': 'RC'
+}
+	============================RF============================
+{
+	'model_class': <class 'estimator.RandomForest'>,
+	'init': {
+	},
+	'fit': {
+	},
+	'predict': {
+	},
+	'fit_on': 'train',
+	'name': 'RF'
+}
+	============================SVM============================
+{
+	'model_class': <class 'estimator.SVM'>,
+	'init': {
+	},
+	'fit': {
+	},
+	'predict': {
+	},
+	'fit_on': 'train',
+	'name': 'SVM'
+}
+	============================MLP============================
+{
+	'model_class': <class 'estimator.MLP'>,
+	'init': {
+	},
+	'fit': {
+	},
+	'predict': {
+	},
+	'fit_on': 'train',
+	'name': 'MLP'
+}

@@ -1,0 +1,271 @@
+
+%% bare_jrnl_compsoc.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8b or later) with an IEEE
+%% Computer Society journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/pkg/ieeetran
+%% and
+%% http://www.ieee.org/
+
+
+\documentclass[10pt,journal,compsoc]{IEEEtran}
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/pkg/ifpdf
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage{amsmath}
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+\usepackage{algorithmic}
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+
+
+% *** SUBFIGURE PACKAGES ***
+%\ifCLASSOPTIONcompsoc
+%  \usepackage[caption=false,font=footnotesize,labelfont=sf,textfont=sf]{subfig}
+%\else
+%  \usepackage[caption=false,font=footnotesize]{subfig}
+%\fi
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+
+
+%\usepackage{stfloats}
+% \usepackage{dblfloatfix}
+% The latest version can be found at:
+% http://www.ctan.org/pkg/dblfloatfix
+
+
+
+
+%\ifCLASSOPTIONcaptionsoff
+%  \usepackage[nomarkers]{endfloat}
+% \let\MYoriglatexcaption\caption
+% \renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
+%\fi
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% Basically, \url{my_url_here}.
+
+% Author added packages
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+
+
+% correct bad hyphenation here
+% \hyphenation{op-tical net-works semi-conduc-tor}
+
+\newcommand{\hdrule}{\midrule[\heavyrulewidth]}
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{Learning Deeply Enriched Representations of Temporal Data of COVID-19 Patients for Improved Mortality Prediction}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+%
+%\IEEEcompsocitemizethanks is a special \thanks that produces the bulleted
+% lists the Computer Society journals use for "first footnote" author
+% affiliations. Use \IEEEcompsocthanksitem which works much like \item
+% for each affiliation group. When not in compsoc mode,
+% \IEEEcompsocitemizethanks becomes like \thanks and
+% \IEEEcompsocthanksitem becomes a line break with idention. This
+% facilitates dual compilation, although admittedly the differences in the
+% desired content of \author between the different types of papers makes a
+% one-size-fits-all approach a daunting prospect. For instance, compsoc 
+% journal papers have the author affiliations above the "Manuscript
+% received ..."  text while in non-compsoc journals this is reversed. Sigh.
+
+\author{Hoon~Seo,
+        Ibrohim~Nosirov,
+        and~Hua~Wang% <-this % stops a space
+\IEEEcompsocitemizethanks{
+\IEEEcompsocthanksitem H. seo, I. Nosirove and H. Wang are with the Department
+of Computer Science, Colorado School of Mines, Golden,
+CO, 80401.
+\IEEEcompsocthanksitem This work was supported in part by the National Science Foundation (NSF) under the grants of IIS 1652943, IIS 1849359, CNS 1932482 and CCF 2029543. (Corresponding author: Hua Wang.)
+\IEEEcompsocthanksitem The codes for the proposed method are provided at: \url{https://anonymous.4open.science/r/364af6e2-45d7-4d23-a3d5-ed5faa25ef97/}
+}% <-this % stops an unwanted space
+}
+
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+% \markboth{Journal of \LaTeX\ Class Files,~Vol.~14, No.~8, August~2015}%
+% {Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+  \iffalse
+    Learning compressed representations of multivariate time series (MTS) facilitates data analysis in the presence of noise and redundant information, and for a large number of variates and time steps. However, classical dimensionality reduction approaches are designed for vectorial data and cannot deal explicitly with missing values. In this work, we propose a novel autoencoder architecture based on recurrent neural networks to generate compressed representations of MTS.
+    
+    Although semi-supervised variational autoencoder (SemiVAE) works in image classiﬁcation task, it fails in text classiﬁcation task if using vanilla LSTM as its decoder. From a perspective of reinforcement learning, it is veriﬁed that the decoder’s capability to distinguish between different categorical labels is essential. Therefore, Semi-supervised Sequential Variational Autoencoder (SSVAE) is proposed, which increases the capability by feeding label into its decoder RNN at each time-step. Two speciﬁc decoder structures are investigated and both of them are veriﬁed to be effective.
+  \fi
+  An influx of COVID-19 infections puts extreme pressure on healthcare systems and the efficient allocation of finite resources becomes a crucial problem. Because clinical measurements of COVID-19 patients can be collected over time, many longitudinal learning models have been presented to predict the clinical outcomes from the multivariate time series (MTS) and thus aid in logistical decision making. However, they often fail to integrate static data with the MTS or utilize the available labels of samples. We propose a novel semi-supervised learning framework that leverages a Long Short-Term Memory (LSTM) autoencoder to learn the vectorial representation of MTS which can be easily integrated with the static data. Armed with vectorial representation summarizing the MTS and static data, conventional machine learning models can be used to predict clinical outcomes. In our experiments of two case studies, the proposed model shows promising prediction performance on mortality rates of 358 COVID-19 patients and 3997 ICU patients with their temporal records collected from blood tests. In addition, the proposed model identifies the risk factors of mortality.
+  % \footnote{The codes used in our experiments will be made publicly accessible on GitHub upon paper acceptance.}
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+% \begin{IEEEkeywords}
+% % Computer Society, IEEE, IEEEtran, journal, \LaTeX, paper, template.
+% \end{IEEEkeywords}
+}
+
+
+% make the title area
+\maketitle
+
+\IEEEdisplaynontitleabstractindextext
+
+\IEEEpeerreviewmaketitle
+
+
+\iffalse
+MLP, DNN -> FNN (feed-forward neural network),
+BLSTM -> LSTM (because of bi-directional LSTM)
+SAE -> LSTMV(LSTM Vectorizer)
+\fi
+%% Short paper – 8 double column pages. All page limits include references and author biographies.
+
+\input{sections/introduction.tex}
+\input{sections/methods.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+% that's all folks
+\end{document}
+
+

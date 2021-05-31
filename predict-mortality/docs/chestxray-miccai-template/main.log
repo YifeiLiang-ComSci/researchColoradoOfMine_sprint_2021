@@ -1,0 +1,419 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  5 MAY 2021 12:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.tex
+(/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/llncs.cls
+Document Class: llncs 2018/03/10 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
+\c@tracingmulticols=\count88
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count89
+\c@collectmore=\count90
+\doublecol@number=\count91
+\multicoltolerance=\count92
+\multicolpretolerance=\count93
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count94
+\c@finalcolumnbadness=\count95
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count96
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/remreset.sty))
+\c@chapter=\count97
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count98
+\fnindent=\dimen122
+\c@@inst=\count99
+\c@@auth=\count100
+\c@auco=\count101
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count102
+\c@case=\count103
+\c@conjecture=\count104
+\c@corollary=\count105
+\c@definition=\count106
+\c@example=\count107
+\c@exercise=\count108
+\c@lemma=\count109
+\c@note=\count110
+\c@problem=\count111
+\c@property=\count112
+\c@proposition=\count113
+\c@question=\count114
+\c@solution=\count115
+\c@remark=\count116
+\headlineindent=\dimen124
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen127
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen128
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count117
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count118
+\leftroot@=\count119
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count120
+\DOTSCASE@=\count121
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip10
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
+\tag@help=\toks20
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
+\andhelp@=\toks21
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks22
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen136
+\lightrulewidth=\dimen137
+\cmidrulewidth=\dimen138
+\belowrulesep=\dimen139
+\belowbottomsep=\dimen140
+\aboverulesep=\dimen141
+\abovetopsep=\dimen142
+\cmidrulesep=\dimen143
+\cmidrulekern=\dimen144
+\defaultaddspace=\dimen145
+\@cmidla=\count129
+\@cmidlb=\count130
+\@aboverulesep=\dimen146
+\@belowrulesep=\dimen147
+\@thisruleclass=\count131
+\@lastruleclass=\count132
+\@thisrulewidth=\dimen148
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count133
+\multirow@dima=\skip49
+\bigstrutjot=\dimen149
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box56
+\extrarowheight=\dimen151
+\NC@list=\toks24
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box57
+)
+\rotheadsize=\dimen152
+\c@nlinenum=\count134
+\TeXr@lab=\toks25
+) (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen153
+\scratchbox=\box58
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen154
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Title too long for running head. Please supply
+a shorter form with \titlerunning prior to \maketitle
+(/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/sections/introduction.tex [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<images/overview.pdf, id=10, 662.475pt x 415.5525pt>
+File: images/overview.pdf Graphic file (type pdf)
+<use images/overview.pdf>
+Package pdftex.def Info: images/overview.pdf  used on input line 65.
+(pdftex.def)             Requested size: 301.99577pt x 189.43176pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/sections/method.tex [2]
+<images/final-inputs.png, id=15, 704.3916pt x 385.44pt>
+File: images/final-inputs.png Graphic file (type png)
+<use images/final-inputs.png>
+Package pdftex.def Info: images/final-inputs.png  used on input line 18.
+(pdftex.def)             Requested size: 329.7663pt x 180.44518pt.
+ [3 </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/overview.pdf>] [4 </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/final-inputs.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+ [5]) (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/sections/experiment.tex
+
+LaTeX Warning: Reference `tab: experimetal results' on page 6 undefined on input line 31.
+
+
+LaTeX Warning: Reference `tab: experimetal results' on page 6 undefined on input line 31.
+
+[6]
+<images/biomarker-identification/fs.png, id=97, 476.982pt x 187.902pt>
+File: images/biomarker-identification/fs.png Graphic file (type png)
+<use images/biomarker-identification/fs.png>
+Package pdftex.def Info: images/biomarker-identification/fs.png  used on input line 138.
+(pdftex.def)             Requested size: 145.79124pt x 57.43187pt.
+<images/biomarker-identification/vbm.png, id=98, 476.982pt x 187.902pt>
+File: images/biomarker-identification/vbm.png Graphic file (type png)
+<use images/biomarker-identification/vbm.png>
+Package pdftex.def Info: images/biomarker-identification/vbm.png  used on input line 139.
+(pdftex.def)             Requested size: 145.79124pt x 57.43187pt.
+Package epstopdf Info: Source file: <images/biomarker-identification/alzgene-same-color.eps>
+(epstopdf)                    date: 2021-04-24 12:17:22
+(epstopdf)                    size: 53480 bytes
+(epstopdf)             Output file: <images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-04-24 12:17:22
+(epstopdf)                    size: 22175 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf images/biomarker-identification/alzgene-same-color.eps>
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
+<images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf, id=99, 462.72874pt x 151.56625pt>
+File: images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf Graphic file (type pdf)
+<use images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf>
+Package pdftex.def Info: images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf  used on input line 145.
+(pdftex.def)             Requested size: 295.05711pt x 96.6459pt.
+ [7 </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/biomarker-identification/fs.png> </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/biomarker-identification/vbm.png>]) (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/sections/conclusion.tex) [8 </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/biomarker-identification/alzgene-same-color-eps-converted-to.pdf>] (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.bbl [9
+
+]) (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/supplementary.tex [10]
+<images/objective.pdf, id=119, 841.1425pt x 526.96875pt>
+File: images/objective.pdf Graphic file (type pdf)
+<use images/objective.pdf>
+Package pdftex.def Info: images/objective.pdf  used on input line 39.
+(pdftex.def)             Requested size: 347.12354pt x 217.47377pt.
+Package epstopdf Info: Source file: <images/roc_curve-p8.eps>
+(epstopdf)                    date: 2021-04-24 12:17:23
+(epstopdf)                    size: 150014 bytes
+(epstopdf)             Output file: <images/roc_curve-p8-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-04-24 12:17:23
+(epstopdf)                    size: 55967 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/roc_curve-p8-eps-converted-to.pdf images/roc_curve-p8.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+<images/roc_curve-p8-eps-converted-to.pdf, id=120, 462.72874pt x 347.2975pt>
+File: images/roc_curve-p8-eps-converted-to.pdf Graphic file (type pdf)
+<use images/roc_curve-p8-eps-converted-to.pdf>
+Package pdftex.def Info: images/roc_curve-p8-eps-converted-to.pdf  used on input line 45.
+(pdftex.def)             Requested size: 308.93973pt x 231.87201pt.
+) [11
+
+
+] [12 </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/objective.pdf> </Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/images/roc_curve-p8-eps-converted-to.pdf>] (/Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2885 strings out of 492649
+ 41464 string characters out of 6129622
+ 121280 words of memory out of 5000000
+ 6701 multiletter control sequences out of 15000+600000
+ 7184 words of font info for 26 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,25p,1961b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /Users/yifeiliang/Documents/GitHub/research/predict-mortality/docs/chestxray-miccai-template/main.pdf (12 pages, 2523353 bytes).
+PDF statistics:
+ 295 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+

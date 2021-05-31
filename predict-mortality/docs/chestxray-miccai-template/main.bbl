@@ -1,0 +1,146 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{barnes2011projected}
+Barnes, D.E., Yaffe, K.: The projected effect of risk factor reduction on
+  alzheimer's disease prevalence. The Lancet Neurology  \textbf{10}(9),
+  819--828 (2011)
+
+\bibitem{brand2018joint}
+Brand, L., Wang, H., Huang, H., Risacher, S., Saykin, A., Shen, L., et~al.:
+  Joint high-order multi-task feature learning to predict the progression of
+  alzheimer’s disease. In: International Conference on Medical Image
+  Computing and Computer-Assisted Intervention. pp. 555--562. Springer (2018)
+
+\bibitem{carmichael2007ventricular}
+Carmichael, O.T., Kuller, L.H., Lopez, O.L., Thompson, P.M., Dutton, R.A., Lu,
+  A., Lee, S.E., Lee, J.Y., Aizenstein, H.J., Meltzer, C.C., et~al.:
+  Ventricular volume and dementia progression in the cardiovascular health
+  study. Neurobiology of aging  \textbf{28}(3),  389--397 (2007)
+
+\bibitem{ho1995random}
+Ho, T.K.: Random decision forests. In: Proceedings of 3rd international
+  conference on document analysis and recognition. vol.~1, pp. 278--282. IEEE
+  (1995)
+
+\bibitem{hong2019predicting}
+Hong, X., Lin, R., Yang, C., Zeng, N., Cai, C., Gou, J., Yang, J.: Predicting
+  alzheimer’s disease using lstm. IEEE Access  \textbf{7},  80893--80901
+  (2019)
+
+\bibitem{kim2009role}
+Kim, J., Basak, J.M., Holtzman, D.M.: The role of apolipoprotein e in
+  alzheimer's disease. Neuron  \textbf{63}(3),  287--303 (2009)
+
+\bibitem{kingma2014adam}
+Kingma, D.P., Ba, J.: Adam: A method for stochastic optimization. arXiv
+  preprint arXiv:1412.6980  (2014)
+
+\bibitem{kramer1991nonlinear}
+Kramer, M.A.: Nonlinear principal component analysis using autoassociative
+  neural networks. AIChE journal  \textbf{37}(2),  233--243 (1991)
+
+\bibitem{lambert2009genome}
+Lambert, J.C., Heath, S., Even, G., Campion, D., Sleegers, K., Hiltunen, M.,
+  Combarros, O., Zelenika, D., Bullido, M.J., Tavernier, B., et~al.:
+  Genome-wide association study identifies variants at clu and cr1 associated
+  with alzheimer's disease. Nature genetics  \textbf{41}(10),  1094--1099
+  (2009)
+
+\bibitem{langkvist2014review}
+L{\"a}ngkvist, M., Karlsson, L., Loutfi, A.: A review of unsupervised feature
+  learning and deep learning for time-series modeling. Pattern Recognition
+  Letters  \textbf{42},  11--24 (2014)
+
+\bibitem{medsker2001recurrent}
+Medsker, L.R., Jain, L.: Recurrent neural networks. Design and Applications
+  \textbf{5} (2001)
+
+\bibitem{mu2011adult}
+Mu, Y., Gage, F.H.: Adult hippocampal neurogenesis and its role in alzheimer's
+  disease. Molecular neurodegeneration  \textbf{6}(1), ~85 (2011)
+
+\bibitem{poulin2011amygdala}
+Poulin, S.P., Dautoff, R., Morris, J.C., Barrett, L.F., Dickerson, B.C.,
+  Initiative, A.D.N., et~al.: Amygdala atrophy is prominent in early
+  alzheimer's disease and relates to symptom severity. Psychiatry Research:
+  Neuroimaging  \textbf{194}(1),  7--13 (2011)
+
+\bibitem{risacher2010longitudinal}
+Risacher, S.L., Shen, L., West, J.D., Kim, S., McDonald, B.C., Beckett, L.A.,
+  Harvey, D.J., Jack~Jr, C.R., Weiner, M.W., Saykin, A.J., et~al.: Longitudinal
+  mri atrophy biomarkers: relationship to conversion in the adni cohort.
+  Neurobiology of aging  \textbf{31}(8),  1401--1418 (2010)
+
+\bibitem{schmidhuber1997long}
+Schmidhuber, J., Hochreiter, S.: Long short-term memory. Neural Comput
+  \textbf{9}(8),  1735--1780 (1997)
+
+\bibitem{shen2010whole}
+Shen, L., Kim, S., Risacher, S.L., Nho, K., Swaminathan, S., West, J.D.,
+  Foroud, T., Pankratz, N., Moore, J.H., Sloan, C.D., et~al.: Whole genome
+  association study of brain-wide imaging phenotypes for identifying
+  quantitative trait loci in mci and ad: A study of the adni cohort. Neuroimage
+   \textbf{53}(3),  1051--1063 (2010)
+
+\bibitem{srivastava2015unsupervised}
+Srivastava, N., Mansimov, E., Salakhudinov, R.: Unsupervised learning of video
+  representations using lstms. In: International conference on machine
+  learning. pp. 843--852 (2015)
+
+\bibitem{stonnington2010predicting}
+Stonnington, C.M., Chu, C., Kl{\"o}ppel, S., Jack~Jr, C.R., Ashburner, J.,
+  Frackowiak, R.S., Initiative, A.D.N., et~al.: Predicting clinical scores from
+  magnetic resonance scans in alzheimer's disease. Neuroimage  \textbf{51}(4),
+  1405--1413 (2010)
+
+\bibitem{tabarestani2019longitudinal}
+Tabarestani, S., Aghili, M., Shojaie, M., Freytes, C., Cabrerizo, M., Barreto,
+  A., Rishe, N., Curiel, R.E., Loewenstein, D., Duara, R., et~al.: Longitudinal
+  prediction modeling of alzheimer disease using recurrent neural networks. In:
+  2019 IEEE EMBS International Conference on Biomedical \& Health Informatics
+  (BHI). pp.~1--4. IEEE (2019)
+
+\bibitem{tuncel2018autoregressive}
+Tuncel, K.S., Baydogan, M.G.: Autoregressive forests for multivariate time
+  series modeling. Pattern recognition  \textbf{73},  202--215 (2018)
+
+\bibitem{vieira2017using}
+Vieira, S., Pinaya, W.H., Mechelli, A.: Using deep learning to investigate the
+  neuroimaging correlates of psychiatric and neurological disorders: Methods
+  and applications. Neuroscience \& Biobehavioral Reviews  \textbf{74},  58--75
+  (2017)
+
+\bibitem{wang2012phenotype}
+Wang, H., Nie, F., Huang, H., Yan, J., Kim, S., Nho, K., Risacher, S.L.,
+  Saykin, A.J., Shen, L., Initiative, A.D.N.: From phenotype to genotype: an
+  association study of longitudinal phenotypic markers to alzheimer's disease
+  relevant snps. Bioinformatics  \textbf{28}(18),  i619--i625 (2012)
+
+\bibitem{wang2012high}
+Wang, H., Nie, F., Huang, H., Yan, J., Kim, S., Risacher, S., Saykin, A., Shen,
+  L.: High-order multi-task feature learning to identify longitudinal
+  phenotypic markers for alzheimer's disease progression prediction. In:
+  Advances in neural information processing systems. pp. 1277--1285 (2012)
+
+\bibitem{wang2016prediction}
+Wang, X., Shen, D., Huang, H.: Prediction of memory impairment with mri data: a
+  longitudinal study of alzheimer’s disease. In: International Conference on
+  Medical Image Computing and Computer-Assisted Intervention. pp. 273--281.
+  Springer (2016)
+
+\bibitem{wang2017longitudinal}
+Wang, X., Yan, J., Yao, X., Kim, S., Nho, K., Risacher, S.L., Saykin, A.J.,
+  Shen, L., Huang, H., et~al.: Longitudinal genotype-phenotype association
+  study via temporal structure auto-learning predictive model. In:
+  International Conference on Research in Computational Molecular Biology. pp.
+  287--302. Springer (2017)
+
+\bibitem{yu2019review}
+Yu, Y., Si, X., Hu, C., Zhang, J.: A review of recurrent neural networks: Lstm
+  cells and network architectures. Neural computation  \textbf{31}(7),
+  1235--1270 (2019)
+
+\end{thebibliography}

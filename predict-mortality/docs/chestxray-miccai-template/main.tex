@@ -1,0 +1,87 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%  
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\usepackage{amsmath}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+
+\newcommand{\hdrule}{\midrule[\heavyrulewidth]}
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}}
+\newcommand{\beginsupplement}{%
+        \setcounter{table}{0}
+        \renewcommand{\thetable}{S\arabic{table}}%
+        \setcounter{figure}{0}
+        \renewcommand{\thefigure}{S\arabic{figure}}%
+        \setcounter{section}{0}
+        \renewcommand{\thesection}{S\arabic{section}}%
+        \setcounter{equation}{0}
+        \renewcommand{\theequation}{S\arabic{equation}}%
+     }
+
+\begin{document}
+%
+\title{Learning Deeply Enriched Representations of Longitudinal Imaging-Genetic Data to Predict Alzheimer's Disease Progression}
+\author{}
+\institute{}
+
+% \author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+% Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+% Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+%
+% \authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+% \institute{Princeton University, Princeton NJ 08544, USA \and
+% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+% \email{lncs@springer.com}\\
+% \url{http://www.springer.com/gp/computer-science/lncs} \and
+% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+% \email{\{abc,lncs\}@uni-heidelberg.de}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Alzheimer’s Disease (AD) is a progressive memory disorder that causes irreversible cognitive decline. Early diagnosis is imperative to prevent the progression of AD and many biomarker analysis models have been presented to detect the disease in its early stages. However, these models often lack reliability due to their failure to integrate longitudinal (dynamic) phenotypic data with (static) genetic data, and/or to fully utilize both labeled and unlabeled samples.
+% deal with the missing data in the incomplete temporal neuroimaging records. 
+To overcome these difficulties, we propose a semi-supervised enrichment learning method to learn the fixed-length vectorial representation of dynamic data for each participant. 
+% Our enrichment model combines a novel long short-term memory (LSTM) autoencoder and a deep neural network which learns the vectorial representation of dynamic data from the available labeled samples. 
+Armed with the enriched representation in fixed-length vector format, the static data can be readily integrated with the dynamic data.
+% Our enrichment model is the ensemble of the novel long short-term memory (LSTM) autoencoder and the deep neural networks which is designed to handle multi-modal information and utilize the labeled and unlabeled samples both. 
+We have applied our new method on the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort and achieved 75\% accuracy on multiclass AD progression prediction one year in advance. In addition to the improved prediction performance when compared against several widely used machine learning algorithms, the proposed model identifies the most relevant disease biomarkers.
+
+% \keywords{First keyword  \and Second keyword \and Another keyword.}
+\end{abstract}
+
+% Manuscripts should be up to 8-pages (text, figures and tables) plus up to 2 pages of references.
+% The MICCAI Conference review process will be double-blind, i.e. the names of the authors will be hidden from the Area Chairs and Reviewers, and the names of Reviewers and Area Chairs will not be revealed to the authors
+
+% should reduce 1.3 pages, intro -> 0.2 
+\input{sections/introduction.tex}
+\input{sections/method.tex}
+\input{sections/experiment.tex}
+\input{sections/conclusion.tex}
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\clearpage
+\bibliographystyle{splncs04}
+\bibliography{biblio}
+%
+\input{supplementary.tex}
+\end{document}

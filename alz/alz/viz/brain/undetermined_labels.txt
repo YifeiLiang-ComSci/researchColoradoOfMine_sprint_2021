@@ -1,0 +1,31 @@
+Right Non WM Hypo Intensities
+Icv
+Right Undetermined
+Right Unknown
+Right Ventral DC
+Right Vessel
+Right WM Hypo Intensities
+WM Hypo Intensities
+Left Bankssts
+Left Cerebral Cortex
+Left Cerebral WM
+Left Choroid Plexus
+Left Hemisphere
+Left Hemisphere WM
+Left Interior
+Left Non WM Hypo Intensities
+Left Pericalcarine
+Left Undetermined
+Left Unknown
+Left Ventral DC
+Left Vessel
+Left WM Hypo Intensities
+Non WM Hypo Intensities
+Right Cerebral Cortex
+Right Cerebral WM
+Csf
+Right Choroid Plexus
+Right Hemisphere
+Right Hemisphere WM
+Fifth Ventricle
+Right Interior

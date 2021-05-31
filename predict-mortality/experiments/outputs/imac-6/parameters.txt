@@ -1,0 +1,17 @@
+	Note: 
+{'np': 2, 'tf': 4}
+	=================== Dataset ===================
+{
+	'this_dataset_is_splitted': True,
+	'init_number_for_unobserved_entry': -10.0,
+	'ID': 1614436352.241267,
+	'dataset_kind': 'chestxray',
+	'path_to_dataset': '/Users/yifeiliang/Downloads/covid-chestxray-dataset',
+	'dataframe_raw': Non-printable,
+	'dataframe': Non-printable,
+	'prediction_label_mapping': Non-printable,
+	'num_patients': 455,
+	'train_proportion': 0.8,
+	'k_fold': 4,
+	'whether_training_is_large': True
+}

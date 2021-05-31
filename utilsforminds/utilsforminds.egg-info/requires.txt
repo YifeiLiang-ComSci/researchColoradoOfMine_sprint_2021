@@ -1,0 +1,10 @@
+sphinx
+sphinx_rtd_theme
+nose
+coverage
+moviepy
+pandas
+pytest
+scikit-learn
+tensorflow
+tikzplotlib

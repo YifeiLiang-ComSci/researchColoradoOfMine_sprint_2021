@@ -1,0 +1,175 @@
+\def\year{2021}\relax
+%File: formatting-instructions-latex-2021.tex
+%release 2021.1
+\documentclass[letterpaper]{article} % DO NOT CHANGE THIS
+\usepackage{aaai21}  % DO NOT CHANGE THIS
+\usepackage{times}  % DO NOT CHANGE THIS
+\usepackage{helvet} % DO NOT CHANGE THIS
+\usepackage{courier}  % DO NOT CHANGE THIS
+\usepackage[hyphens]{url}  % DO NOT CHANGE THIS
+\usepackage{graphicx} % DO NOT CHANGE THIS
+\urlstyle{rm} % DO NOT CHANGE THIS
+\def\UrlFont{\rm}  % DO NOT CHANGE THIS
+\usepackage{natbib}  % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\usepackage{caption} % DO NOT CHANGE THIS AND DO NOT ADD ANY OPTIONS TO IT
+\frenchspacing  % DO NOT CHANGE THIS
+\setlength{\pdfpagewidth}{8.5in}  % DO NOT CHANGE THIS
+\setlength{\pdfpageheight}{11in}  % DO NOT CHANGE THIS
+%\nocopyright
+%PDF Info Is REQUIRED.
+% For /Author, add all authors within the parentheses, separated by commas. No accents or commands.
+% For /Title, add Title in Mixed Case. No accents or commands. Retain the parentheses.
+\pdfinfo{
+/Title (Unsupervised Embedding via Locality Preserving Autoencoder to Predict Mortality in Patients with COVID-19)
+/Author (Hoon Seo, Hua Wang)
+} %Leave this
+% /Title ()
+% Put your actual complete title (no codes, scripts, shortcuts, or LaTeX commands) within the parentheses in mixed case
+% Leave the space between \Title and the beginning parenthesis alone
+% /Author ()
+% Put your actual complete list of authors (no codes, scripts, shortcuts, or LaTeX commands) within the parentheses in mixed case.
+% Each author should be only by a comma. If the name contains accents, remove them. If there are any LaTeX commands,
+% remove them.
+
+%% Load Packages
+\usepackage{amsmath}
+
+% DISALLOWED PACKAGES
+% \usepackage{authblk} -- This package is specifically forbidden
+% \usepackage{balance} -- This package is specifically forbidden
+% \usepackage{color (if used in text)
+% \usepackage{CJK} -- This package is specifically forbidden
+% \usepackage{float} -- This package is specifically forbidden
+% \usepackage{flushend} -- This package is specifically forbidden
+% \usepackage{fontenc} -- This package is specifically forbidden
+% \usepackage{fullpage} -- This package is specifically forbidden
+% \usepackage{geometry} -- This package is specifically forbidden
+% \usepackage{grffile} -- This package is specifically forbidden
+% \usepackage{hyperref} -- This package is specifically forbidden
+% \usepackage{navigator} -- This package is specifically forbidden
+% (or any other package that embeds links such as navigator or hyperref)
+% \indentfirst} -- This package is specifically forbidden
+% \layout} -- This package is specifically forbidden
+% \multicol} -- This package is specifically forbidden
+% \nameref} -- This package is specifically forbidden
+% \usepackage{savetrees} -- This package is specifically forbidden
+% \usepackage{setspace} -- This package is specifically forbidden
+% \usepackage{stfloats} -- This package is specifically forbidden
+% \usepackage{tabu} -- This package is specifically forbidden
+% \usepackage{titlesec} -- This package is specifically forbidden
+% \usepackage{tocbibind} -- This package is specifically forbidden
+% \usepackage{ulem} -- This package is specifically forbidden
+% \usepackage{wrapfig} -- This package is specifically forbidden
+% DISALLOWED COMMANDS
+% \nocopyright -- Your paper will not be published if you use this command
+% \addtolength -- This command may not be used
+% \balance -- This command may not be used
+% \baselinestretch -- Your paper will not be published if you use this command
+% \clearpage -- No page breaks of any kind may be used for the final version of your paper
+% \columnsep -- This command may not be used
+% \newpage -- No page breaks of any kind may be used for the final version of your paper
+% \pagebreak -- No page breaks of any kind may be used for the final version of your paperr
+% \pagestyle -- This command may not be used
+% \tiny -- This is not an acceptable font size.
+% \vspace{- -- No negative value may be used in proximity of a caption, figure, table, section, subsection, subsubsection, or reference
+% \vskip{- -- No negative value may be used to alter spacing above or below a caption, figure, table, section, subsection, subsubsection, or reference
+
+\setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+% The file aaai21.sty is the style file for AAAI Press
+% proceedings, working notes, and technical reports.
+%
+
+% Title
+
+% Your title must be in mixed case, not sentence case.
+% That means all verbs (including short verbs like be, is, using,and go),
+% nouns, adverbs, adjectives should be capitalized, including both words in hyphenated terms, while
+% articles, conjunctions, and prepositions are lower case unless they
+% directly follow a colon or long dash
+
+\title{Unsupervised Embedding via Locality Preserving Autoencoder for Improved Mortality Prediction in Patients with COVID-19}
+\author{
+    %Authors
+    % All authors must be in the same font size and format.
+    Anonymous Authors
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract} 
+An influx of COVID-19 infections puts pressure on healthcare systems and
+    disrupts their general care routine, leading to an increase in excess
+    deaths. Efficient allocation of finite resources, is a persistent problem
+    most apparent during a sudden influx of patients. Earlier studies have
+    suggested the use of biomarkers, particularly those measured in blood
+    samples, to build mortality-prediction models to aid in logistical
+    decision-making. These same studies focused on isolating predictive
+    biomarkers rather than building a deterministic model. This paper uses
+    longitudinal data collected from blood samples of 375 patients infected
+    with COVID-19 in Wuhan, China, to produce a general predictive
+    mortality-prediction models. We propose an embedding framework that
+    summarizes sparse time series measurements into a single fixed-length
+    vector by combining locality preserving projections and deep learning.
+    Models equipped with this new framework promise significantly higher
+    prediction accuracy in addition to training on less data.
+\end{abstract}
+
+\section{Introduction}
+Sudden increases in COVID-19 cases, such as during seasonal waves, quickly
+deplete the limited resources of healthcare systems~\cite{kontis2020magnitude}, forcing clinicians to set
+criteria for distribution of scarce treatments, such as N95
+respirators~\cite{centers2020strategies}. In an earlier study, Yan et al. advocated for
+a machine learning mortality-prediction model to inform logistical
+planning~\cite{yan2020interpretable}.  The model proposed in the study takes in data from
+patients' blood samples to identify the most predictive biomarkers using
+a random forest algorithm. This data was obtained from a publicly available
+dataset whose samples were collected using case report forms (CRFs) and
+contained longitudinal records on 358 COVID-19-positive patients admitted to
+Tongji Hospital in China. Most patient samples also contained a `patient
+outcome' feature, which the model could use as a target variable. Acknowledging
+the limitations of random forest models in taking in misaligned temporal data,
+only the final record from each patient was used to train and test the model.
+While this technique accomplished the task of deter- mining the most predictive
+biomarkers, it failed to capture change in time, a feature central to the
+progression of COVID-19. In this study, we attempt a similar classification
+task on this same dataset, but with the goal of producing a general predictive
+model that incorporates temporal features into its predictions.
+
+Conventional classification methods in time series analysis require vector
+sequences of fixed length, which is rarely the case when data is collected
+outside of a carefully controlled environment. Our samples were collected
+during an outbreak of a pandemic, a time when hospitals function out of routine
+blood draws are not performed with for a controlled study. As a result, the
+number of blood draws different for every patient and  time intervals between
+samples are also often irregular. The data for this specific dataset was also
+conducted using CRFs, or surveys filled out by individuals rather than being
+transcribed directly from a test result. The resultant inputs are uneven
+sequences of vectors with missing information that introduce several new
+difficulties, particularly when missing the missing information includes
+patient outcome, the target variable for any predictive model.
+
+One might suggest imputation as a possible solution, at least to tackle missing
+the missing data problem. Modern imputation methods rely on a framework of
+generative adversarial networks (GANs)~\cite{yoon2018gain} to successfully impute
+sizeable portions of high-dimensional data. Although they are efficient, even
+state-of-the-art techniques assume records to be missing-at-random, an
+assumption that risks introducing unintended bias into a model. If we suppose
+that the data is perfectly imputed and that we are able to coerce
+a classification model to recognize time as a feature, there is still
+variability within individual samples. Patient blood is sampled only when
+the clinician deems it necessary, so the number of records in a sequence, as
+well as the time interval between samples, is most likely different for every patient.
+Many time series models require the number of the records to be uniform across
+sequences while techniques that are reliant on time underlying time functions,
+such as autoencoders, fail completely when the intervals between records are
+non-uniform~\cite{yu2013embedding}. All of these difficulties are typically tackled by
+removing samples, a practice that leads to a smaller dataset and a less
+accurate model.
+
+\newpage
+\bibliographystyle{aaai21}
+\bibliography{master}
+\end{document}
